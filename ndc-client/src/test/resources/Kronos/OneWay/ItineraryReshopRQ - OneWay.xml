@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ItinReshopRQ EchoToken="8fdb1c621a7a4454aa3360556e7784d5" Version="IATA2016.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.iata.org/IATA/EDIST ItinReshopRQ.xsd" xmlns="http://www.iata.org/IATA/EDIST">
+	<Document>
+		<Name>NDC GATEWAY</Name>
+		<ReferenceVersion>1.0</ReferenceVersion>
+	</Document>
+	<Party>
+		<Sender>
+			<TravelAgencySender>
+				<Contacts>
+					<Contact>
+						<EmailContact>
+							<Address>ndc@usdtravel.com</Address>
+						</EmailContact>
+					</Contact>
+				</Contacts>
+				<PseudoCity>A4A</PseudoCity>
+				<IATA_Number>98417900</IATA_Number>
+				<AgencyID Owner="C9">C9</AgencyID>
+				<AgentUser>
+					<Name>ksmith</Name>
+					<AgentUserID>ksmith212</AgentUserID>
+					<UserRole>Admin</UserRole>
+				</AgentUser>
+			</TravelAgencySender>
+		</Sender>
+	</Party>
+	<Query>
+		<Reshop>
+			<Actions>
+				<ActionType Context="Segment">Update</ActionType>
+				<OrderID Owner="C9">A12345R88</OrderID>
+				<OrderItems>
+					<OrderItem>
+						<OrderItemID Owner="C9">_</OrderItemID>
+						<FlightItem>
+							<OriginDestination>
+								<Flight>
+									<Departure>
+										<AirportCode>LHR</AirportCode>
+										<Date>2017-08-22</Date>
+									</Departure>
+									<Arrival>
+										<AirportCode>BCN</AirportCode>
+									</Arrival>
+									<MarketingCarrier>
+										<AirlineID>C9</AirlineID>
+										<FlightNumber>OPEN</FlightNumber>
+									</MarketingCarrier>
+								</Flight>
+							</OriginDestination>
+						</FlightItem>
+					</OrderItem>
+				</OrderItems>
+				<Preference>
+					<CabinPreferences>
+						<CabinType>
+							<Code>M</Code>
+						</CabinType>
+					</CabinPreferences>
+				</Preference>
+			</Actions>
+		</Reshop>
+	</Query>
+</ItinReshopRQ>

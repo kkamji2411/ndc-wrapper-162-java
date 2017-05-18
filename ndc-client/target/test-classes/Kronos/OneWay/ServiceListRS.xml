@@ -1,0 +1,1466 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ServiceListRS EchoToken="testServiceList" TimeStamp="2017-04-28T12:53:33.394Z" Version="IATA2016.2" xmlns="http://www.iata.org/IATA/EDIST">
+  <Document>
+    <Name>KRONOS NDC GATEWAY</Name>
+  </Document>
+  <Success/>
+  <ShoppingResponseID>
+    <ResponseID>10-edc63702f62e4e159fe9876193a2ca6d</ResponseID>
+  </ShoppingResponseID>
+  <DataLists>
+    <RecognizedTravelerList>
+      <RecognizedTraveler ObjectKey="SH1">
+        <PTC>ADT</PTC>
+        <Name>
+          <Surname>Sutar</Surname>
+          <Given>Pramod</Given>
+          <Middle>R</Middle>
+        </Name>
+        <Gender>Male</Gender>
+        <Contacts>
+          <Contact>
+            <EmailContact>
+              <Address>Pramod@gmail.com</Address>
+            </EmailContact>
+          </Contact>
+        </Contacts>
+      </RecognizedTraveler>
+    </RecognizedTravelerList>
+    <FlightSegmentList>
+      <FlightSegment SegmentKey="SEG_ARNFRA_1">
+        <Departure>
+          <AirportCode>ARN</AirportCode>
+          <Date>2017-08-05</Date>
+          <Time>07:50</Time>
+          <AirportName>Stockholm Arlanda Airport</AirportName>
+        </Departure>
+        <Arrival>
+          <AirportCode>FRA</AirportCode>
+          <Date>2017-08-05</Date>
+          <Time>09:54</Time>
+          <AirportName>Frankfurt Airport</AirportName>
+        </Arrival>
+        <MarketingCarrier>
+          <AirlineID>C9</AirlineID>
+          <FlightNumber>013</FlightNumber>
+        </MarketingCarrier>
+        <OperatingCarrier>
+          <AirlineID>C9</AirlineID>
+          <FlightNumber>013</FlightNumber>
+        </OperatingCarrier>
+        <Equipment>
+          <AircraftCode>737</AircraftCode>
+          <Name>B737</Name>
+        </Equipment>
+        <FlightDetail>
+          <FlightDuration>
+            <Value>P0DT2H4M0S</Value>
+          </FlightDuration>
+        </FlightDetail>
+      </FlightSegment>
+    </FlightSegmentList>
+    <FlightList>
+      <Flight FlightKey="FL_ARNFRA_1">
+        <Journey>
+          <Time>P0DT2H4M0S</Time>
+        </Journey>
+        <SegmentReferences>SEG_ARNFRA_1</SegmentReferences>
+      </Flight>
+    </FlightList>
+    <OriginDestinationList>
+      <OriginDestination OriginDestinationKey="ARNFRA">
+        <DepartureCode>ARN</DepartureCode>
+        <ArrivalCode>FRA</ArrivalCode>
+        <FlightReferences>FL_ARNFRA_1</FlightReferences>
+      </OriginDestination>
+    </OriginDestinationList>
+    <ServiceList>
+      <Service ObjectKey="SV_1010_EFO">
+        <ServiceID Owner="C9">1010</ServiceID>
+        <Name>2nd Bag</Name>
+        <Descriptions>
+          <Description>
+            <Text>Second bag</Text>
+          </Description>
+        </Descriptions>
+        <Price>
+          <Total>35</Total>
+          <PassengerReferences>SH1</PassengerReferences>
+        </Price>
+        <Associations>
+          <Traveler>
+            <TravelerReferences>SH1</TravelerReferences>
+          </Traveler>
+          <Flight>
+            <SegmentReferences>SEG_ARNFRA_1</SegmentReferences>
+          </Flight>
+        </Associations>
+      </Service>
+      <Service ObjectKey="SV_1014_ALL">
+        <ServiceID Owner="C9">1014</ServiceID>
+        <Name>Advanced seat selection</Name>
+        <Descriptions>
+          <Description>
+            <Text>A convenient option that lets you reserve your preferred seat</Text>
+          </Description>
+        </Descriptions>
+        <Price>
+          <Total>0</Total>
+          <PassengerReferences>SH1</PassengerReferences>
+        </Price>
+        <Associations>
+          <Traveler>
+            <TravelerReferences>SH1</TravelerReferences>
+          </Traveler>
+          <Flight>
+            <SegmentReferences>SEG_ARNFRA_1</SegmentReferences>
+          </Flight>
+        </Associations>
+      </Service>
+      <Service ObjectKey="SV_1011_ESO">
+        <ServiceID Owner="C9">1011</ServiceID>
+        <Name>Lounge Pass</Name>
+        <Descriptions>
+          <Description>
+            <Text>Escape the crowds and find a quiet space to work or relax</Text>
+          </Description>
+        </Descriptions>
+        <Price>
+          <Total>35</Total>
+          <PassengerReferences>SH1</PassengerReferences>
+        </Price>
+        <Associations>
+          <Traveler>
+            <TravelerReferences>SH1</TravelerReferences>
+          </Traveler>
+          <Flight>
+            <SegmentReferences>SEG_ARNFRA_1</SegmentReferences>
+          </Flight>
+        </Associations>
+      </Service>
+      <Service ObjectKey="SV_1020_ESO">
+        <ServiceID Owner="C9">1020</ServiceID>
+        <Name>Lactose-free meal</Name>
+        <Descriptions>
+          <Description>
+            <Text>This meal is for customers who are lactose-intolerant</Text>
+          </Description>
+        </Descriptions>
+        <Price>
+          <Total>10</Total>
+          <PassengerReferences>SH1</PassengerReferences>
+        </Price>
+        <Associations>
+          <Traveler>
+            <TravelerReferences>SH1</TravelerReferences>
+          </Traveler>
+          <Flight>
+            <SegmentReferences>SEG_ARNFRA_1</SegmentReferences>
+          </Flight>
+        </Associations>
+      </Service>
+      <Service ObjectKey="SV_1022_ALL">
+        <ServiceID Owner="C9">1022</ServiceID>
+        <Name>Snack</Name>
+        <Descriptions>
+          <Description>
+            <Text>Enjoy a wide selection of complimentary snacks and beverages</Text>
+          </Description>
+        </Descriptions>
+        <Price>
+          <Total>0</Total>
+          <PassengerReferences>SH1</PassengerReferences>
+        </Price>
+        <Associations>
+          <Traveler>
+            <TravelerReferences>SH1</TravelerReferences>
+          </Traveler>
+          <Flight>
+            <SegmentReferences>SEG_ARNFRA_1</SegmentReferences>
+          </Flight>
+        </Associations>
+      </Service>
+      <Service ObjectKey="SV_1013_ALL">
+        <ServiceID Owner="C9">1013</ServiceID>
+        <Name>Muslim Meal</Name>
+        <Descriptions>
+          <Description>
+            <Text>*Halal* meal prepared according to Islamic pinciples</Text>
+          </Description>
+        </Descriptions>
+        <Price>
+          <Total>0</Total>
+          <PassengerReferences>SH1</PassengerReferences>
+        </Price>
+        <Associations>
+          <Traveler>
+            <TravelerReferences>SH1</TravelerReferences>
+          </Traveler>
+          <Flight>
+            <SegmentReferences>SEG_ARNFRA_1</SegmentReferences>
+          </Flight>
+        </Associations>
+      </Service>
+      <Service ObjectKey="SV_1019_ERO">
+        <ServiceID Owner="C9">1019</ServiceID>
+        <Name>Diabetic Meal</Name>
+        <Descriptions>
+          <Description>
+            <Text>Sugar is not used in the preparation of this meal</Text>
+          </Description>
+        </Descriptions>
+        <Price>
+          <Total>15</Total>
+          <PassengerReferences>SH1</PassengerReferences>
+        </Price>
+        <Associations>
+          <Traveler>
+            <TravelerReferences>SH1</TravelerReferences>
+          </Traveler>
+          <Flight>
+            <SegmentReferences>SEG_ARNFRA_1</SegmentReferences>
+          </Flight>
+        </Associations>
+      </Service>
+      <Service ObjectKey="SV_1021_ALL">
+        <ServiceID Owner="C9">1021</ServiceID>
+        <Name>Kosher meal</Name>
+        <Descriptions>
+          <Description>
+            <Text>Prepared by kosher caterers under rabbinical supervision</Text>
+          </Description>
+        </Descriptions>
+        <Price>
+          <Total>0</Total>
+          <PassengerReferences>SH1</PassengerReferences>
+        </Price>
+        <Associations>
+          <Traveler>
+            <TravelerReferences>SH1</TravelerReferences>
+          </Traveler>
+          <Flight>
+            <SegmentReferences>SEG_ARNFRA_1</SegmentReferences>
+          </Flight>
+        </Associations>
+      </Service>
+      <Service ObjectKey="SV_1011_EFO">
+        <ServiceID Owner="C9">1011</ServiceID>
+        <Name>Lounge Pass</Name>
+        <Descriptions>
+          <Description>
+            <Text>Escape the crowds and find a quiet space to work or relax</Text>
+          </Description>
+        </Descriptions>
+        <Price>
+          <Total>35</Total>
+          <PassengerReferences>SH1</PassengerReferences>
+        </Price>
+        <Associations>
+          <Traveler>
+            <TravelerReferences>SH1</TravelerReferences>
+          </Traveler>
+          <Flight>
+            <SegmentReferences>SEG_ARNFRA_1</SegmentReferences>
+          </Flight>
+        </Associations>
+      </Service>
+      <Service ObjectKey="SV_1010_ESO">
+        <ServiceID Owner="C9">1010</ServiceID>
+        <Name>2nd Bag</Name>
+        <Descriptions>
+          <Description>
+            <Text>Second bag</Text>
+          </Description>
+        </Descriptions>
+        <Price>
+          <Total>35</Total>
+          <PassengerReferences>SH1</PassengerReferences>
+        </Price>
+        <Associations>
+          <Traveler>
+            <TravelerReferences>SH1</TravelerReferences>
+          </Traveler>
+          <Flight>
+            <SegmentReferences>SEG_ARNFRA_1</SegmentReferences>
+          </Flight>
+        </Associations>
+      </Service>
+      <Service ObjectKey="SV_1020_EFO">
+        <ServiceID Owner="C9">1020</ServiceID>
+        <Name>Lactose-free meal</Name>
+        <Descriptions>
+          <Description>
+            <Text>This meal is for customers who are lactose-intolerant</Text>
+          </Description>
+        </Descriptions>
+        <Price>
+          <Total>10</Total>
+          <PassengerReferences>SH1</PassengerReferences>
+        </Price>
+        <Associations>
+          <Traveler>
+            <TravelerReferences>SH1</TravelerReferences>
+          </Traveler>
+          <Flight>
+            <SegmentReferences>SEG_ARNFRA_1</SegmentReferences>
+          </Flight>
+        </Associations>
+      </Service>
+      <Service ObjectKey="SV_1012_ALL">
+        <ServiceID Owner="C9">1012</ServiceID>
+        <Name>Vegetarian Meal</Name>
+        <Descriptions>
+          <Description>
+            <Text>Vegetarian meal flavoured with spices from Indian sub-continent</Text>
+          </Description>
+        </Descriptions>
+        <Price>
+          <Total>0</Total>
+          <PassengerReferences>SH1</PassengerReferences>
+        </Price>
+        <Associations>
+          <Traveler>
+            <TravelerReferences>SH1</TravelerReferences>
+          </Traveler>
+          <Flight>
+            <SegmentReferences>SEG_ARNFRA_1</SegmentReferences>
+          </Flight>
+        </Associations>
+      </Service>
+      <Service ObjectKey="SV_102_ALL">
+        <ServiceID Owner="C9">102</ServiceID>
+        <Name>Lactose-free meal</Name>
+        <Descriptions>
+          <Description>
+            <Text>This meal is for customers who are lactose-intolerant</Text>
+          </Description>
+        </Descriptions>
+        <Price>
+          <Total>0</Total>
+          <PassengerReferences>SH1</PassengerReferences>
+        </Price>
+        <Associations>
+          <Traveler>
+            <TravelerReferences>SH1</TravelerReferences>
+          </Traveler>
+          <Flight>
+            <SegmentReferences>SEG_ARNFRA_1</SegmentReferences>
+          </Flight>
+        </Associations>
+      </Service>
+      <Service ObjectKey="SV_1019_EFO">
+        <ServiceID Owner="C9">1019</ServiceID>
+        <Name>Diabetic Meal</Name>
+        <Descriptions>
+          <Description>
+            <Text>Sugar is not used in the preparation of this meal</Text>
+          </Description>
+        </Descriptions>
+        <Price>
+          <Total>10</Total>
+          <PassengerReferences>SH1</PassengerReferences>
+        </Price>
+        <Associations>
+          <Traveler>
+            <TravelerReferences>SH1</TravelerReferences>
+          </Traveler>
+          <Flight>
+            <SegmentReferences>SEG_ARNFRA_1</SegmentReferences>
+          </Flight>
+        </Associations>
+      </Service>
+      <Service ObjectKey="SV_1014_ESO">
+        <ServiceID Owner="C9">1014</ServiceID>
+        <Name>Advanced seat selection</Name>
+        <Descriptions>
+          <Description>
+            <Text>A convenient option that lets you reserve your preferred seat</Text>
+          </Description>
+        </Descriptions>
+        <Price>
+          <Total>12</Total>
+          <PassengerReferences>SH1</PassengerReferences>
+        </Price>
+        <Associations>
+          <Traveler>
+            <TravelerReferences>SH1</TravelerReferences>
+          </Traveler>
+          <Flight>
+            <SegmentReferences>SEG_ARNFRA_1</SegmentReferences>
+          </Flight>
+        </Associations>
+      </Service>
+      <Service ObjectKey="SV_1020_ALL">
+        <ServiceID Owner="C9">1020</ServiceID>
+        <Name>Lactose-free meal</Name>
+        <Descriptions>
+          <Description>
+            <Text>This meal is for customers who are lactose-intolerant</Text>
+          </Description>
+        </Descriptions>
+        <Price>
+          <Total>0</Total>
+          <PassengerReferences>SH1</PassengerReferences>
+        </Price>
+        <Associations>
+          <Traveler>
+            <TravelerReferences>SH1</TravelerReferences>
+          </Traveler>
+          <Flight>
+            <SegmentReferences>SEG_ARNFRA_1</SegmentReferences>
+          </Flight>
+        </Associations>
+      </Service>
+      <Service ObjectKey="SV_1021_EFO">
+        <ServiceID Owner="C9">1021</ServiceID>
+        <Name>Kosher meal</Name>
+        <Descriptions>
+          <Description>
+            <Text>Prepared by kosher caterers under rabbinical supervision</Text>
+          </Description>
+        </Descriptions>
+        <Price>
+          <Total>10</Total>
+          <PassengerReferences>SH1</PassengerReferences>
+        </Price>
+        <Associations>
+          <Traveler>
+            <TravelerReferences>SH1</TravelerReferences>
+          </Traveler>
+          <Flight>
+            <SegmentReferences>SEG_ARNFRA_1</SegmentReferences>
+          </Flight>
+        </Associations>
+      </Service>
+      <Service ObjectKey="SV_1011_ERO">
+        <ServiceID Owner="C9">1011</ServiceID>
+        <Name>Lounge Pass</Name>
+        <Descriptions>
+          <Description>
+            <Text>Escape the crowds and find a quiet space to work or relax</Text>
+          </Description>
+        </Descriptions>
+        <Price>
+          <Total>55</Total>
+          <PassengerReferences>SH1</PassengerReferences>
+        </Price>
+        <Associations>
+          <Traveler>
+            <TravelerReferences>SH1</TravelerReferences>
+          </Traveler>
+          <Flight>
+            <SegmentReferences>SEG_ARNFRA_1</SegmentReferences>
+          </Flight>
+        </Associations>
+      </Service>
+      <Service ObjectKey="SV_1022_ESO">
+        <ServiceID Owner="C9">1022</ServiceID>
+        <Name>Snack</Name>
+        <Descriptions>
+          <Description>
+            <Text>Enjoy a wide selection of complimentary snacks and beverages</Text>
+          </Description>
+        </Descriptions>
+        <Price>
+          <Total>10</Total>
+          <PassengerReferences>SH1</PassengerReferences>
+        </Price>
+        <Associations>
+          <Traveler>
+            <TravelerReferences>SH1</TravelerReferences>
+          </Traveler>
+          <Flight>
+            <SegmentReferences>SEG_ARNFRA_1</SegmentReferences>
+          </Flight>
+        </Associations>
+      </Service>
+      <Service ObjectKey="SV_1017_ERO">
+        <ServiceID Owner="C9">1017</ServiceID>
+        <Name>Standard Meal</Name>
+        <Descriptions>
+          <Description>
+            <Text>This is a non-strict vegetarian meal</Text>
+          </Description>
+        </Descriptions>
+        <Price>
+          <Total>15</Total>
+          <PassengerReferences>SH1</PassengerReferences>
+        </Price>
+        <Associations>
+          <Traveler>
+            <TravelerReferences>SH1</TravelerReferences>
+          </Traveler>
+          <Flight>
+            <SegmentReferences>SEG_ARNFRA_1</SegmentReferences>
+          </Flight>
+        </Associations>
+      </Service>
+      <Service ObjectKey="SV_1018_EFO">
+        <ServiceID Owner="C9">1018</ServiceID>
+        <Name>Low-Carb meal</Name>
+        <Descriptions>
+          <Description>
+            <Text>For passengers with special dietary requirements as Low-Carb</Text>
+          </Description>
+        </Descriptions>
+        <Price>
+          <Total>10</Total>
+          <PassengerReferences>SH1</PassengerReferences>
+        </Price>
+        <Associations>
+          <Traveler>
+            <TravelerReferences>SH1</TravelerReferences>
+          </Traveler>
+          <Flight>
+            <SegmentReferences>SEG_ARNFRA_1</SegmentReferences>
+          </Flight>
+        </Associations>
+      </Service>
+      <Service ObjectKey="SV_1021_ESO">
+        <ServiceID Owner="C9">1021</ServiceID>
+        <Name>Kosher meal</Name>
+        <Descriptions>
+          <Description>
+            <Text>Prepared by kosher caterers under rabbinical supervision</Text>
+          </Description>
+        </Descriptions>
+        <Price>
+          <Total>10</Total>
+          <PassengerReferences>SH1</PassengerReferences>
+        </Price>
+        <Associations>
+          <Traveler>
+            <TravelerReferences>SH1</TravelerReferences>
+          </Traveler>
+          <Flight>
+            <SegmentReferences>SEG_ARNFRA_1</SegmentReferences>
+          </Flight>
+        </Associations>
+      </Service>
+      <Service ObjectKey="SV_1022_EFO">
+        <ServiceID Owner="C9">1022</ServiceID>
+        <Name>Snack</Name>
+        <Descriptions>
+          <Description>
+            <Text>Enjoy a wide selection of complimentary snacks and beverages</Text>
+          </Description>
+        </Descriptions>
+        <Price>
+          <Total>10</Total>
+          <PassengerReferences>SH1</PassengerReferences>
+        </Price>
+        <Associations>
+          <Traveler>
+            <TravelerReferences>SH1</TravelerReferences>
+          </Traveler>
+          <Flight>
+            <SegmentReferences>SEG_ARNFRA_1</SegmentReferences>
+          </Flight>
+        </Associations>
+      </Service>
+      <Service ObjectKey="SV_1015_ESO">
+        <ServiceID Owner="C9">1015</ServiceID>
+        <Name>Premium Seating</Name>
+        <Descriptions>
+          <Description>
+            <Text>Take advantage of the Premium Economy cabin to rest,read or work</Text>
+          </Description>
+        </Descriptions>
+        <Price>
+          <Total>55</Total>
+          <PassengerReferences>SH1</PassengerReferences>
+        </Price>
+        <Associations>
+          <Traveler>
+            <TravelerReferences>SH1</TravelerReferences>
+          </Traveler>
+          <Flight>
+            <SegmentReferences>SEG_ARNFRA_1</SegmentReferences>
+          </Flight>
+        </Associations>
+      </Service>
+      <Service ObjectKey="SV_1010_ERO">
+        <ServiceID Owner="C9">1010</ServiceID>
+        <Name>2nd Bag</Name>
+        <Descriptions>
+          <Description>
+            <Text>Second bag</Text>
+          </Description>
+        </Descriptions>
+        <Price>
+          <Total>35</Total>
+          <PassengerReferences>SH1</PassengerReferences>
+        </Price>
+        <Associations>
+          <Traveler>
+            <TravelerReferences>SH1</TravelerReferences>
+          </Traveler>
+          <Flight>
+            <SegmentReferences>SEG_ARNFRA_1</SegmentReferences>
+          </Flight>
+        </Associations>
+      </Service>
+      <Service ObjectKey="SV_1009_ALL">
+        <ServiceID Owner="C9">1009</ServiceID>
+        <Name>Inflight Wi-Fi</Name>
+        <Descriptions>
+          <Description>
+            <Text>Stay connected using any Wi-Fi enabled device</Text>
+          </Description>
+        </Descriptions>
+        <Price>
+          <Total>0</Total>
+          <PassengerReferences>SH1</PassengerReferences>
+        </Price>
+        <Associations>
+          <Traveler>
+            <TravelerReferences>SH1</TravelerReferences>
+          </Traveler>
+          <Flight>
+            <SegmentReferences>SEG_ARNFRA_1</SegmentReferences>
+          </Flight>
+        </Associations>
+      </Service>
+      <Service ObjectKey="SV_1023_ERO">
+        <ServiceID Owner="C9">1023</ServiceID>
+        <Name>1st Bag</Name>
+        <Descriptions>
+          <Description>
+            <Text>Do not get caught out at the airport</Text>
+          </Description>
+        </Descriptions>
+        <Price>
+          <Total>35</Total>
+          <PassengerReferences>SH1</PassengerReferences>
+        </Price>
+        <Associations>
+          <Traveler>
+            <TravelerReferences>SH1</TravelerReferences>
+          </Traveler>
+          <Flight>
+            <SegmentReferences>SEG_ARNFRA_1</SegmentReferences>
+          </Flight>
+        </Associations>
+      </Service>
+      <Service ObjectKey="SV_1016_ESO">
+        <ServiceID Owner="C9">1016</ServiceID>
+        <Name>Standard Meal</Name>
+        <Descriptions>
+          <Description>
+            <Text>Vegetarian Oriental Meal</Text>
+          </Description>
+        </Descriptions>
+        <Price>
+          <Total>10</Total>
+          <PassengerReferences>SH1</PassengerReferences>
+        </Price>
+        <Associations>
+          <Traveler>
+            <TravelerReferences>SH1</TravelerReferences>
+          </Traveler>
+          <Flight>
+            <SegmentReferences>SEG_ARNFRA_1</SegmentReferences>
+          </Flight>
+        </Associations>
+      </Service>
+      <Service ObjectKey="SV_1017_EFO">
+        <ServiceID Owner="C9">1017</ServiceID>
+        <Name>Standard Meal</Name>
+        <Descriptions>
+          <Description>
+            <Text>This is a non-strict vegetarian meal</Text>
+          </Description>
+        </Descriptions>
+        <Price>
+          <Total>10</Total>
+          <PassengerReferences>SH1</PassengerReferences>
+        </Price>
+        <Associations>
+          <Traveler>
+            <TravelerReferences>SH1</TravelerReferences>
+          </Traveler>
+          <Flight>
+            <SegmentReferences>SEG_ARNFRA_1</SegmentReferences>
+          </Flight>
+        </Associations>
+      </Service>
+      <Service ObjectKey="SV_1018_ERO">
+        <ServiceID Owner="C9">1018</ServiceID>
+        <Name>Low-Carb meal</Name>
+        <Descriptions>
+          <Description>
+            <Text>For passengers with special dietary requirements as Low-Carb</Text>
+          </Description>
+        </Descriptions>
+        <Price>
+          <Total>15</Total>
+          <PassengerReferences>SH1</PassengerReferences>
+        </Price>
+        <Associations>
+          <Traveler>
+            <TravelerReferences>SH1</TravelerReferences>
+          </Traveler>
+          <Flight>
+            <SegmentReferences>SEG_ARNFRA_1</SegmentReferences>
+          </Flight>
+        </Associations>
+      </Service>
+      <Service ObjectKey="SV_1023_EFO">
+        <ServiceID Owner="C9">1023</ServiceID>
+        <Name>1st Bag</Name>
+        <Descriptions>
+          <Description>
+            <Text>Do not get caught out at the airport</Text>
+          </Description>
+        </Descriptions>
+        <Price>
+          <Total>35</Total>
+          <PassengerReferences>SH1</PassengerReferences>
+        </Price>
+        <Associations>
+          <Traveler>
+            <TravelerReferences>SH1</TravelerReferences>
+          </Traveler>
+          <Flight>
+            <SegmentReferences>SEG_ARNFRA_1</SegmentReferences>
+          </Flight>
+        </Associations>
+      </Service>
+      <Service ObjectKey="SV_1014_ERO">
+        <ServiceID Owner="C9">1014</ServiceID>
+        <Name>Advanced seat selection</Name>
+        <Descriptions>
+          <Description>
+            <Text>A convenient option that lets you reserve your preferred seat</Text>
+          </Description>
+        </Descriptions>
+        <Price>
+          <Total>16</Total>
+          <PassengerReferences>SH1</PassengerReferences>
+        </Price>
+        <Associations>
+          <Traveler>
+            <TravelerReferences>SH1</TravelerReferences>
+          </Traveler>
+          <Flight>
+            <SegmentReferences>SEG_ARNFRA_1</SegmentReferences>
+          </Flight>
+        </Associations>
+      </Service>
+      <Service ObjectKey="SV_1022_ERO">
+        <ServiceID Owner="C9">1022</ServiceID>
+        <Name>Snack</Name>
+        <Descriptions>
+          <Description>
+            <Text>Enjoy a wide selection of complimentary snacks and beverages</Text>
+          </Description>
+        </Descriptions>
+        <Price>
+          <Total>15</Total>
+          <PassengerReferences>SH1</PassengerReferences>
+        </Price>
+        <Associations>
+          <Traveler>
+            <TravelerReferences>SH1</TravelerReferences>
+          </Traveler>
+          <Flight>
+            <SegmentReferences>SEG_ARNFRA_1</SegmentReferences>
+          </Flight>
+        </Associations>
+      </Service>
+      <Service ObjectKey="SV_1024_ESO">
+        <ServiceID Owner="C9">1024</ServiceID>
+        <Name>3rd Bag</Name>
+        <Descriptions>
+          <Description>
+            <Text>Do not get caught out at the airport</Text>
+          </Description>
+        </Descriptions>
+        <Price>
+          <Total>115</Total>
+          <PassengerReferences>SH1</PassengerReferences>
+        </Price>
+        <Associations>
+          <Traveler>
+            <TravelerReferences>SH1</TravelerReferences>
+          </Traveler>
+          <Flight>
+            <SegmentReferences>SEG_ARNFRA_1</SegmentReferences>
+          </Flight>
+        </Associations>
+      </Service>
+      <Service ObjectKey="SV_1019_ALL">
+        <ServiceID Owner="C9">1019</ServiceID>
+        <Name>Diabetic Meal</Name>
+        <Descriptions>
+          <Description>
+            <Text>Sugar is not used in the preparation of this meal</Text>
+          </Description>
+        </Descriptions>
+        <Price>
+          <Total>0</Total>
+          <PassengerReferences>SH1</PassengerReferences>
+        </Price>
+        <Associations>
+          <Traveler>
+            <TravelerReferences>SH1</TravelerReferences>
+          </Traveler>
+          <Flight>
+            <SegmentReferences>SEG_ARNFRA_1</SegmentReferences>
+          </Flight>
+        </Associations>
+      </Service>
+      <Service ObjectKey="SV_1014_EFO">
+        <ServiceID Owner="C9">1014</ServiceID>
+        <Name>Advanced seat selection</Name>
+        <Descriptions>
+          <Description>
+            <Text>A convenient option that lets you reserve your preferred seat</Text>
+          </Description>
+        </Descriptions>
+        <Price>
+          <Total>7</Total>
+          <PassengerReferences>SH1</PassengerReferences>
+        </Price>
+        <Associations>
+          <Traveler>
+            <TravelerReferences>SH1</TravelerReferences>
+          </Traveler>
+          <Flight>
+            <SegmentReferences>SEG_ARNFRA_1</SegmentReferences>
+          </Flight>
+        </Associations>
+      </Service>
+      <Service ObjectKey="SV_1017_ESO">
+        <ServiceID Owner="C9">1017</ServiceID>
+        <Name>Standard Meal</Name>
+        <Descriptions>
+          <Description>
+            <Text>This is a non-strict vegetarian meal</Text>
+          </Description>
+        </Descriptions>
+        <Price>
+          <Total>10</Total>
+          <PassengerReferences>SH1</PassengerReferences>
+        </Price>
+        <Associations>
+          <Traveler>
+            <TravelerReferences>SH1</TravelerReferences>
+          </Traveler>
+          <Flight>
+            <SegmentReferences>SEG_ARNFRA_1</SegmentReferences>
+          </Flight>
+        </Associations>
+      </Service>
+      <Service ObjectKey="SV_1016_EFO">
+        <ServiceID Owner="C9">1016</ServiceID>
+        <Name>Standard Meal</Name>
+        <Descriptions>
+          <Description>
+            <Text>Vegetarian Oriental Meal</Text>
+          </Description>
+        </Descriptions>
+        <Price>
+          <Total>10</Total>
+          <PassengerReferences>SH1</PassengerReferences>
+        </Price>
+        <Associations>
+          <Traveler>
+            <TravelerReferences>SH1</TravelerReferences>
+          </Traveler>
+          <Flight>
+            <SegmentReferences>SEG_ARNFRA_1</SegmentReferences>
+          </Flight>
+        </Associations>
+      </Service>
+      <Service ObjectKey="SV_1021_ERO">
+        <ServiceID Owner="C9">1021</ServiceID>
+        <Name>Kosher meal</Name>
+        <Descriptions>
+          <Description>
+            <Text>Prepared by kosher caterers under rabbinical supervision</Text>
+          </Description>
+        </Descriptions>
+        <Price>
+          <Total>15</Total>
+          <PassengerReferences>SH1</PassengerReferences>
+        </Price>
+        <Associations>
+          <Traveler>
+            <TravelerReferences>SH1</TravelerReferences>
+          </Traveler>
+          <Flight>
+            <SegmentReferences>SEG_ARNFRA_1</SegmentReferences>
+          </Flight>
+        </Associations>
+      </Service>
+      <Service ObjectKey="SV_1015_ERO">
+        <ServiceID Owner="C9">1015</ServiceID>
+        <Name>Premium Seating</Name>
+        <Descriptions>
+          <Description>
+            <Text>Take advantage of the Premium Economy cabin to rest,read or work</Text>
+          </Description>
+        </Descriptions>
+        <Price>
+          <Total>75</Total>
+          <PassengerReferences>SH1</PassengerReferences>
+        </Price>
+        <Associations>
+          <Traveler>
+            <TravelerReferences>SH1</TravelerReferences>
+          </Traveler>
+          <Flight>
+            <SegmentReferences>SEG_ARNFRA_1</SegmentReferences>
+          </Flight>
+        </Associations>
+      </Service>
+      <Service ObjectKey="SV_1009_ESO">
+        <ServiceID Owner="C9">1009</ServiceID>
+        <Name>Inflight Wi-Fi</Name>
+        <Descriptions>
+          <Description>
+            <Text>Stay connected using any Wi-Fi enabled device</Text>
+          </Description>
+        </Descriptions>
+        <Price>
+          <Total>12</Total>
+          <PassengerReferences>SH1</PassengerReferences>
+        </Price>
+        <Associations>
+          <Traveler>
+            <TravelerReferences>SH1</TravelerReferences>
+          </Traveler>
+          <Flight>
+            <SegmentReferences>SEG_ARNFRA_1</SegmentReferences>
+          </Flight>
+        </Associations>
+      </Service>
+      <Service ObjectKey="SV_1024_ERO">
+        <ServiceID Owner="C9">1024</ServiceID>
+        <Name>3rd Bag</Name>
+        <Descriptions>
+          <Description>
+            <Text>Do not get caught out at the airport</Text>
+          </Description>
+        </Descriptions>
+        <Price>
+          <Total>115</Total>
+          <PassengerReferences>SH1</PassengerReferences>
+        </Price>
+        <Associations>
+          <Traveler>
+            <TravelerReferences>SH1</TravelerReferences>
+          </Traveler>
+          <Flight>
+            <SegmentReferences>SEG_ARNFRA_1</SegmentReferences>
+          </Flight>
+        </Associations>
+      </Service>
+      <Service ObjectKey="SV_1023_ESO">
+        <ServiceID Owner="C9">1023</ServiceID>
+        <Name>1st Bag</Name>
+        <Descriptions>
+          <Description>
+            <Text>Do not get caught out at the airport</Text>
+          </Description>
+        </Descriptions>
+        <Price>
+          <Total>35</Total>
+          <PassengerReferences>SH1</PassengerReferences>
+        </Price>
+        <Associations>
+          <Traveler>
+            <TravelerReferences>SH1</TravelerReferences>
+          </Traveler>
+          <Flight>
+            <SegmentReferences>SEG_ARNFRA_1</SegmentReferences>
+          </Flight>
+        </Associations>
+      </Service>
+      <Service ObjectKey="SV_102_ERO">
+        <ServiceID Owner="C9">102</ServiceID>
+        <Name>Lactose-free meal</Name>
+        <Descriptions>
+          <Description>
+            <Text>This meal is for customers who are lactose-intolerant</Text>
+          </Description>
+        </Descriptions>
+        <Price>
+          <Total>15</Total>
+          <PassengerReferences>SH1</PassengerReferences>
+        </Price>
+        <Associations>
+          <Traveler>
+            <TravelerReferences>SH1</TravelerReferences>
+          </Traveler>
+          <Flight>
+            <SegmentReferences>SEG_ARNFRA_1</SegmentReferences>
+          </Flight>
+        </Associations>
+      </Service>
+      <Service ObjectKey="SV_1012_ERO">
+        <ServiceID Owner="C9">1012</ServiceID>
+        <Name>Vegetarian Meal</Name>
+        <Descriptions>
+          <Description>
+            <Text>Vegetarian meal flavoured with spices from Indian sub-continent</Text>
+          </Description>
+        </Descriptions>
+        <Price>
+          <Total>15</Total>
+          <PassengerReferences>SH1</PassengerReferences>
+        </Price>
+        <Associations>
+          <Traveler>
+            <TravelerReferences>SH1</TravelerReferences>
+          </Traveler>
+          <Flight>
+            <SegmentReferences>SEG_ARNFRA_1</SegmentReferences>
+          </Flight>
+        </Associations>
+      </Service>
+      <Service ObjectKey="SV_1024_EFO">
+        <ServiceID Owner="C9">1024</ServiceID>
+        <Name>3rd Bag</Name>
+        <Descriptions>
+          <Description>
+            <Text>Do not get caught out at the airport</Text>
+          </Description>
+        </Descriptions>
+        <Price>
+          <Total>115</Total>
+          <PassengerReferences>SH1</PassengerReferences>
+        </Price>
+        <Associations>
+          <Traveler>
+            <TravelerReferences>SH1</TravelerReferences>
+          </Traveler>
+          <Flight>
+            <SegmentReferences>SEG_ARNFRA_1</SegmentReferences>
+          </Flight>
+        </Associations>
+      </Service>
+      <Service ObjectKey="SV_1016_ERO">
+        <ServiceID Owner="C9">1016</ServiceID>
+        <Name>Standard Meal</Name>
+        <Descriptions>
+          <Description>
+            <Text>Vegetarian Oriental Meal</Text>
+          </Description>
+        </Descriptions>
+        <Price>
+          <Total>15</Total>
+          <PassengerReferences>SH1</PassengerReferences>
+        </Price>
+        <Associations>
+          <Traveler>
+            <TravelerReferences>SH1</TravelerReferences>
+          </Traveler>
+          <Flight>
+            <SegmentReferences>SEG_ARNFRA_1</SegmentReferences>
+          </Flight>
+        </Associations>
+      </Service>
+      <Service ObjectKey="SV_1015_EFO">
+        <ServiceID Owner="C9">1015</ServiceID>
+        <Name>Premium Seating</Name>
+        <Descriptions>
+          <Description>
+            <Text>Take advantage of the Premium Economy cabin to rest,read or work</Text>
+          </Description>
+        </Descriptions>
+        <Price>
+          <Total>45</Total>
+          <PassengerReferences>SH1</PassengerReferences>
+        </Price>
+        <Associations>
+          <Traveler>
+            <TravelerReferences>SH1</TravelerReferences>
+          </Traveler>
+          <Flight>
+            <SegmentReferences>SEG_ARNFRA_1</SegmentReferences>
+          </Flight>
+        </Associations>
+      </Service>
+      <Service ObjectKey="SV_1018_ESO">
+        <ServiceID Owner="C9">1018</ServiceID>
+        <Name>Low-Carb meal</Name>
+        <Descriptions>
+          <Description>
+            <Text>For passengers with special dietary requirements as Low-Carb</Text>
+          </Description>
+        </Descriptions>
+        <Price>
+          <Total>10</Total>
+          <PassengerReferences>SH1</PassengerReferences>
+        </Price>
+        <Associations>
+          <Traveler>
+            <TravelerReferences>SH1</TravelerReferences>
+          </Traveler>
+          <Flight>
+            <SegmentReferences>SEG_ARNFRA_1</SegmentReferences>
+          </Flight>
+        </Associations>
+      </Service>
+      <Service ObjectKey="SV_1009_EFO">
+        <ServiceID Owner="C9">1009</ServiceID>
+        <Name>Inflight Wi-Fi</Name>
+        <Descriptions>
+          <Description>
+            <Text>Stay connected using any Wi-Fi enabled device</Text>
+          </Description>
+        </Descriptions>
+        <Price>
+          <Total>7</Total>
+          <PassengerReferences>SH1</PassengerReferences>
+        </Price>
+        <Associations>
+          <Traveler>
+            <TravelerReferences>SH1</TravelerReferences>
+          </Traveler>
+          <Flight>
+            <SegmentReferences>SEG_ARNFRA_1</SegmentReferences>
+          </Flight>
+        </Associations>
+      </Service>
+      <Service ObjectKey="SV_1020_ERO">
+        <ServiceID Owner="C9">1020</ServiceID>
+        <Name>Lactose-free meal</Name>
+        <Descriptions>
+          <Description>
+            <Text>This meal is for customers who are lactose-intolerant</Text>
+          </Description>
+        </Descriptions>
+        <Price>
+          <Total>15</Total>
+          <PassengerReferences>SH1</PassengerReferences>
+        </Price>
+        <Associations>
+          <Traveler>
+            <TravelerReferences>SH1</TravelerReferences>
+          </Traveler>
+          <Flight>
+            <SegmentReferences>SEG_ARNFRA_1</SegmentReferences>
+          </Flight>
+        </Associations>
+      </Service>
+      <Service ObjectKey="SV_102_EFO">
+        <ServiceID Owner="C9">102</ServiceID>
+        <Name>Lactose-free meal</Name>
+        <Descriptions>
+          <Description>
+            <Text>This meal is for customers who are lactose-intolerant</Text>
+          </Description>
+        </Descriptions>
+        <Price>
+          <Total>10</Total>
+          <PassengerReferences>SH1</PassengerReferences>
+        </Price>
+        <Associations>
+          <Traveler>
+            <TravelerReferences>SH1</TravelerReferences>
+          </Traveler>
+          <Flight>
+            <SegmentReferences>SEG_ARNFRA_1</SegmentReferences>
+          </Flight>
+        </Associations>
+      </Service>
+      <Service ObjectKey="SV_1024_ALL">
+        <ServiceID Owner="C9">1024</ServiceID>
+        <Name>3rd Bag</Name>
+        <Descriptions>
+          <Description>
+            <Text>Do not get caught out at the airport</Text>
+          </Description>
+        </Descriptions>
+        <Price>
+          <Total>65</Total>
+          <PassengerReferences>SH1</PassengerReferences>
+        </Price>
+        <Associations>
+          <Traveler>
+            <TravelerReferences>SH1</TravelerReferences>
+          </Traveler>
+          <Flight>
+            <SegmentReferences>SEG_ARNFRA_1</SegmentReferences>
+          </Flight>
+        </Associations>
+      </Service>
+      <Service ObjectKey="SV_1011_ALL">
+        <ServiceID Owner="C9">1011</ServiceID>
+        <Name>Lounge Pass</Name>
+        <Descriptions>
+          <Description>
+            <Text>Escape the crowds and find a quiet space to work or relax</Text>
+          </Description>
+        </Descriptions>
+        <Price>
+          <Total>0</Total>
+          <PassengerReferences>SH1</PassengerReferences>
+        </Price>
+        <Associations>
+          <Traveler>
+            <TravelerReferences>SH1</TravelerReferences>
+          </Traveler>
+          <Flight>
+            <SegmentReferences>SEG_ARNFRA_1</SegmentReferences>
+          </Flight>
+        </Associations>
+      </Service>
+      <Service ObjectKey="SV_1013_ESO">
+        <ServiceID Owner="C9">1013</ServiceID>
+        <Name>Muslim Meal</Name>
+        <Descriptions>
+          <Description>
+            <Text>*Halal* meal prepared according to Islamic pinciples</Text>
+          </Description>
+        </Descriptions>
+        <Price>
+          <Total>10</Total>
+          <PassengerReferences>SH1</PassengerReferences>
+        </Price>
+        <Associations>
+          <Traveler>
+            <TravelerReferences>SH1</TravelerReferences>
+          </Traveler>
+          <Flight>
+            <SegmentReferences>SEG_ARNFRA_1</SegmentReferences>
+          </Flight>
+        </Associations>
+      </Service>
+      <Service ObjectKey="SV_1012_EFO">
+        <ServiceID Owner="C9">1012</ServiceID>
+        <Name>Vegetarian Meal</Name>
+        <Descriptions>
+          <Description>
+            <Text>Vegetarian meal flavoured with spices from Indian sub-continent</Text>
+          </Description>
+        </Descriptions>
+        <Price>
+          <Total>10</Total>
+          <PassengerReferences>SH1</PassengerReferences>
+        </Price>
+        <Associations>
+          <Traveler>
+            <TravelerReferences>SH1</TravelerReferences>
+          </Traveler>
+          <Flight>
+            <SegmentReferences>SEG_ARNFRA_1</SegmentReferences>
+          </Flight>
+        </Associations>
+      </Service>
+      <Service ObjectKey="SV_1019_ESO">
+        <ServiceID Owner="C9">1019</ServiceID>
+        <Name>Diabetic Meal</Name>
+        <Descriptions>
+          <Description>
+            <Text>Sugar is not used in the preparation of this meal</Text>
+          </Description>
+        </Descriptions>
+        <Price>
+          <Total>10</Total>
+          <PassengerReferences>SH1</PassengerReferences>
+        </Price>
+        <Associations>
+          <Traveler>
+            <TravelerReferences>SH1</TravelerReferences>
+          </Traveler>
+          <Flight>
+            <SegmentReferences>SEG_ARNFRA_1</SegmentReferences>
+          </Flight>
+        </Associations>
+      </Service>
+      <Service ObjectKey="SV_1017_ALL">
+        <ServiceID Owner="C9">1017</ServiceID>
+        <Name>Standard Meal</Name>
+        <Descriptions>
+          <Description>
+            <Text>This is a non-strict vegetarian meal</Text>
+          </Description>
+        </Descriptions>
+        <Price>
+          <Total>0</Total>
+          <PassengerReferences>SH1</PassengerReferences>
+        </Price>
+        <Associations>
+          <Traveler>
+            <TravelerReferences>SH1</TravelerReferences>
+          </Traveler>
+          <Flight>
+            <SegmentReferences>SEG_ARNFRA_1</SegmentReferences>
+          </Flight>
+        </Associations>
+      </Service>
+      <Service ObjectKey="SV_1009_ERO">
+        <ServiceID Owner="C9">1009</ServiceID>
+        <Name>Inflight Wi-Fi</Name>
+        <Descriptions>
+          <Description>
+            <Text>Stay connected using any Wi-Fi enabled device</Text>
+          </Description>
+        </Descriptions>
+        <Price>
+          <Total>19</Total>
+          <PassengerReferences>SH1</PassengerReferences>
+        </Price>
+        <Associations>
+          <Traveler>
+            <TravelerReferences>SH1</TravelerReferences>
+          </Traveler>
+          <Flight>
+            <SegmentReferences>SEG_ARNFRA_1</SegmentReferences>
+          </Flight>
+        </Associations>
+      </Service>
+      <Service ObjectKey="SV_1013_ERO">
+        <ServiceID Owner="C9">1013</ServiceID>
+        <Name>Muslim Meal</Name>
+        <Descriptions>
+          <Description>
+            <Text>*Halal* meal prepared according to Islamic pinciples</Text>
+          </Description>
+        </Descriptions>
+        <Price>
+          <Total>15</Total>
+          <PassengerReferences>SH1</PassengerReferences>
+        </Price>
+        <Associations>
+          <Traveler>
+            <TravelerReferences>SH1</TravelerReferences>
+          </Traveler>
+          <Flight>
+            <SegmentReferences>SEG_ARNFRA_1</SegmentReferences>
+          </Flight>
+        </Associations>
+      </Service>
+      <Service ObjectKey="SV_1010_ALL">
+        <ServiceID Owner="C9">1010</ServiceID>
+        <Name>2nd Bag</Name>
+        <Descriptions>
+          <Description>
+            <Text>Second bag</Text>
+          </Description>
+        </Descriptions>
+        <Price>
+          <Total>0</Total>
+          <PassengerReferences>SH1</PassengerReferences>
+        </Price>
+        <Associations>
+          <Traveler>
+            <TravelerReferences>SH1</TravelerReferences>
+          </Traveler>
+          <Flight>
+            <SegmentReferences>SEG_ARNFRA_1</SegmentReferences>
+          </Flight>
+        </Associations>
+      </Service>
+      <Service ObjectKey="SV_1023_ALL">
+        <ServiceID Owner="C9">1023</ServiceID>
+        <Name>1st Bag</Name>
+        <Descriptions>
+          <Description>
+            <Text>Do not get caught out at the airport</Text>
+          </Description>
+        </Descriptions>
+        <Price>
+          <Total>0</Total>
+          <PassengerReferences>SH1</PassengerReferences>
+        </Price>
+        <Associations>
+          <Traveler>
+            <TravelerReferences>SH1</TravelerReferences>
+          </Traveler>
+          <Flight>
+            <SegmentReferences>SEG_ARNFRA_1</SegmentReferences>
+          </Flight>
+        </Associations>
+      </Service>
+      <Service ObjectKey="SV_1012_ESO">
+        <ServiceID Owner="C9">1012</ServiceID>
+        <Name>Vegetarian Meal</Name>
+        <Descriptions>
+          <Description>
+            <Text>Vegetarian meal flavoured with spices from Indian sub-continent</Text>
+          </Description>
+        </Descriptions>
+        <Price>
+          <Total>10</Total>
+          <PassengerReferences>SH1</PassengerReferences>
+        </Price>
+        <Associations>
+          <Traveler>
+            <TravelerReferences>SH1</TravelerReferences>
+          </Traveler>
+          <Flight>
+            <SegmentReferences>SEG_ARNFRA_1</SegmentReferences>
+          </Flight>
+        </Associations>
+      </Service>
+      <Service ObjectKey="SV_1013_EFO">
+        <ServiceID Owner="C9">1013</ServiceID>
+        <Name>Muslim Meal</Name>
+        <Descriptions>
+          <Description>
+            <Text>*Halal* meal prepared according to Islamic pinciples</Text>
+          </Description>
+        </Descriptions>
+        <Price>
+          <Total>10</Total>
+          <PassengerReferences>SH1</PassengerReferences>
+        </Price>
+        <Associations>
+          <Traveler>
+            <TravelerReferences>SH1</TravelerReferences>
+          </Traveler>
+          <Flight>
+            <SegmentReferences>SEG_ARNFRA_1</SegmentReferences>
+          </Flight>
+        </Associations>
+      </Service>
+      <Service ObjectKey="SV_102_ESO">
+        <ServiceID Owner="C9">102</ServiceID>
+        <Name>Lactose-free meal</Name>
+        <Descriptions>
+          <Description>
+            <Text>This meal is for customers who are lactose-intolerant</Text>
+          </Description>
+        </Descriptions>
+        <Price>
+          <Total>10</Total>
+          <PassengerReferences>SH1</PassengerReferences>
+        </Price>
+        <Associations>
+          <Traveler>
+            <TravelerReferences>SH1</TravelerReferences>
+          </Traveler>
+          <Flight>
+            <SegmentReferences>SEG_ARNFRA_1</SegmentReferences>
+          </Flight>
+        </Associations>
+      </Service>
+      <Service ObjectKey="SV_1018_ALL">
+        <ServiceID Owner="C9">1018</ServiceID>
+        <Name>Low-Carb meal</Name>
+        <Descriptions>
+          <Description>
+            <Text>For passengers with special dietary requirements as Low-Carb</Text>
+          </Description>
+        </Descriptions>
+        <Price>
+          <Total>0</Total>
+          <PassengerReferences>SH1</PassengerReferences>
+        </Price>
+        <Associations>
+          <Traveler>
+            <TravelerReferences>SH1</TravelerReferences>
+          </Traveler>
+          <Flight>
+            <SegmentReferences>SEG_ARNFRA_1</SegmentReferences>
+          </Flight>
+        </Associations>
+      </Service>
+    </ServiceList>
+  </DataLists>
+</ServiceListRS>

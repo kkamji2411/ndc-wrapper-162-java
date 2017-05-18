@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<OrderCreateRQ Version="IATA2016.2" xmlns="http://www.iata.org/IATA/EDIST" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.iata.org/IATA/EDIST ../OrderCreateRQ.xsd">
+	<PointOfSale>
+		<Location>
+			<CountryCode>US</CountryCode>
+			<CityCode>WAS</CityCode>
+		</Location>
+		<RequestTime Zone="EST">2015-10-14T07:45:00+07:45</RequestTime>
+		<TouchPoint>
+			<Device>
+				<Code>2</Code>
+				<Definition>Web Browser</Definition>
+				<Position>
+					<Latitude>38.89756</Latitude>
+					<Longitude>-77.03650</Longitude>
+					<NAC>8KD7V PGGM0</NAC>
+				</Position>
+			</Device>
+			<Event>
+				<Code>1</Code>
+				<Definition>Order or buy</Definition>
+			</Event>
+		</TouchPoint>
+	</PointOfSale>
+	<Document>
+		<Name>KRONOS NDC GATEWAY</Name>
+		<ReferenceVersion>1.0</ReferenceVersion>
+	</Document>
+	<Party>
+		<Sender>
+			<TravelAgencySender>
+				<Name>TestAgency</Name>
+				<Contacts>
+					<Contact>
+						<EmailContact>
+							<Address>ndc@usdtravel.com</Address>
+						</EmailContact>
+					</Contact>
+				</Contacts>
+				<PseudoCity>A4A</PseudoCity>
+				<IATA_Number>98417900</IATA_Number>
+				<AgencyID Owner="C9">C9</AgencyID>
+				<AgentUser>
+					<Name>ksmith</Name>
+					<AgentUserID>ramesh@kronos.com</AgentUserID>
+					<UserRole>ADMIN</UserRole>
+				</AgentUser>
+			</TravelAgencySender>
+		</Sender>
+	</Party>
+	<Query>
+		<Passengers>
+			<Passenger ObjectKey="SH1">
+				<PTC Quantity="1">ADT</PTC>
+				<Name>
+					<Surname>Sutar</Surname>
+					<Given>Pramod</Given>
+					<SurnameSuffix>Sr</SurnameSuffix>
+					<Middle>R</Middle>
+				</Name>
+				<Contacts>
+					<Contact>
+						<AddressContact>
+							<Street>Parsik Road</Street>
+							<CityName>BOM</CityName>
+							<PostalCode>400605</PostalCode>
+							<County>IN</County>
+						</AddressContact>
+						<EmailContact>
+							<Address>Pramod@gmail.com</Address>
+						</EmailContact>
+						<OtherContactMethod>
+							<Name>Mobile</Name>
+							<Value>1234567890</Value>
+						</OtherContactMethod>
+						<PhoneContact>
+							<Number CountryCode="91">9664597377</Number>
+						</PhoneContact>
+					</Contact>
+				</Contacts>
+				<Gender>Male</Gender>
+				<AdditionalRoles PaymentContactInd="false" PrimaryContactInd="true"/>
+			</Passenger>
+		</Passengers>
+		<OrderItems>
+			<ShoppingResponse>
+				<Owner>C9</Owner>
+				<ResponseID>213-0</ResponseID>
+				<Offers>
+					<Offer>
+						<OfferID Owner="C9">1</OfferID>
+						<OfferItems>
+							<OfferItem>
+								<OfferItemID ObjectKey="ID2" Owner="C9">1_2</OfferItemID>
+								<Passengers>
+									<PassengerReference>SH1</PassengerReference>
+								</Passengers>
+								<TotalPrice>
+									<DetailCurrencyPrice>
+										<Total Code="EUR">213.08</Total>
+										<Details>
+											<Detail>
+												<SubTotal Code="EUR">59.50</SubTotal>
+												<Application>BaseFare</Application>
+											</Detail>
+										</Details>
+										<Taxes>
+											<Total Code="EUR">153.58</Total>
+										</Taxes>
+									</DetailCurrencyPrice>
+								</TotalPrice>
+								<ApplicableFlight>
+									<FlightSegmentReference ref="SEG_LHRBCN_1">
+										<Cabin>
+											<CabinDesignator>M</CabinDesignator>
+										</Cabin>
+									</FlightSegmentReference>
+									<OriginDestinationReferences>OD1</OriginDestinationReferences>
+									<FlightReferences>FL_LHRBCN_1</FlightReferences>
+								</ApplicableFlight>
+							</OfferItem>
+						</OfferItems>
+						<TotalPrice>
+							<SimpleCurrencyPrice Code="EUR">426.16</SimpleCurrencyPrice>
+						</TotalPrice>
+					</Offer>
+					<Offer>
+						<OfferID Owner="C9">112</OfferID>
+						<OfferItems>
+							<OfferItem>
+								<OfferItemID ObjectKey="ID112_2" Owner="C9">112_2</OfferItemID>
+								<Passengers>
+									<PassengerReference>SH1</PassengerReference>
+								</Passengers>
+								<TotalPrice>
+									<DetailCurrencyPrice>
+										<Total Code="EUR">213.08</Total>
+										<Details>
+											<Detail>
+												<SubTotal Code="EUR">59.50</SubTotal>
+												<Application>BaseFare</Application>
+											</Detail>
+										</Details>
+										<Taxes>
+											<Total Code="EUR">153.58</Total>
+										</Taxes>
+									</DetailCurrencyPrice>
+								</TotalPrice>
+								<ApplicableFlight>
+									<FlightSegmentReference ref="SEG_BCNLHR_2">
+										<Cabin>
+											<CabinDesignator>M</CabinDesignator>
+										</Cabin>
+									</FlightSegmentReference>
+									<OriginDestinationReferences>OD2</OriginDestinationReferences>
+									<FlightReferences>FL_BCNLHR_2</FlightReferences>
+								</ApplicableFlight>
+							</OfferItem>
+						</OfferItems>
+						<TotalPrice>
+							<SimpleCurrencyPrice Code="EUR">426.16</SimpleCurrencyPrice>
+						</TotalPrice>
+					</Offer>
+				</Offers>
+			</ShoppingResponse>
+		</OrderItems>
+		<Payments>
+			<Payment>
+				<Method>
+					<PaymentCard>
+						<CardCode>MC</CardCode>
+						<CardNumber>1111222233334444</CardNumber>
+						<SeriesCode>584</SeriesCode>
+						<EffectiveExpireDate>
+							<Effective>0322</Effective>
+						</EffectiveExpireDate>
+					</PaymentCard>
+				</Method>
+				<Amount Taxable="true" Code="EUR">426.16</Amount>
+				<Payer>
+					<Name>
+						<Surname>Patel</Surname>
+						<Given>Ramesh</Given>
+					</Name>
+					<Contacts>
+						<Contact>
+							<AddressContact>
+								<Street>22 Main Street</Street>
+								<CityName>FRA</CityName>
+								<PostalCode>14201</PostalCode>
+								<CountryCode>DE</CountryCode>
+							</AddressContact>
+							<EmailContact>
+								<Address>ramesh@kronos.com</Address>
+							</EmailContact>
+						</Contact>
+					</Contacts>
+				</Payer>
+			</Payment>
+		</Payments>
+		<DataLists>
+			<FlightSegmentList>
+				<FlightSegment SegmentKey="SEG_LHRBCN_1">
+					<Departure>
+						<AirportCode>LHR</AirportCode>
+						<Date>2017-08-22</Date>
+						<Time>08:00</Time>
+						<AirportName>Heathrow Airport</AirportName>
+					</Departure>
+					<Arrival>
+						<AirportCode>BCN</AirportCode>
+						<Date>2017-08-22</Date>
+						<Time>10:59</Time>
+						<AirportName>Barcelona–El Prat Airport</AirportName>
+					</Arrival>
+					<MarketingCarrier>
+						<AirlineID>C9</AirlineID>
+						<FlightNumber>070</FlightNumber>
+					</MarketingCarrier>
+				</FlightSegment>
+				<FlightSegment SegmentKey="SEG_BCNLHR_2">
+					<Departure>
+						<AirportCode>BCN</AirportCode>
+						<Date>2017-08-26</Date>
+						<Time>12:00</Time>
+						<AirportName>Barcelona–El Prat Airport</AirportName>
+					</Departure>
+					<Arrival>
+						<AirportCode>LHR</AirportCode>
+						<Date>2017-08-26</Date>
+						<Time>12:59</Time>
+						<AirportName>Heathrow Airport</AirportName>
+					</Arrival>
+					<MarketingCarrier>
+						<AirlineID>C9</AirlineID>
+						<FlightNumber>071</FlightNumber>
+					</MarketingCarrier>
+				</FlightSegment>
+			</FlightSegmentList>
+			<FlightList>
+				<Flight FlightKey="FL_LHRBCN_1">
+					<Journey>
+						<Time>P0DT1H59M0S</Time>
+					</Journey>
+					<SegmentReferences>SEG_LHRBCN_1</SegmentReferences>
+				</Flight>
+				<Flight FlightKey="FL_BCNLHR_2">
+					<Journey>
+						<Time>P0DT1H59M0S</Time>
+					</Journey>
+					<SegmentReferences>SEG_BCNLHR_2</SegmentReferences>
+				</Flight>
+			</FlightList>
+			<OriginDestinationList>
+				<OriginDestination OriginDestinationKey="OD1">
+					<DepartureCode>LHR</DepartureCode>
+					<ArrivalCode>BCN</ArrivalCode>
+					<FlightReferences>FL_LHRBCN_1</FlightReferences>
+				</OriginDestination>
+				<OriginDestination OriginDestinationKey="OD2">
+					<DepartureCode>BCN</DepartureCode>
+					<ArrivalCode>LHR</ArrivalCode>
+					<FlightReferences>FL_BCNLHR_2</FlightReferences>
+				</OriginDestination>
+			</OriginDestinationList>
+		</DataLists>
+		<Metadata>
+			<Other>
+				<OtherMetadata>
+					<CurrencyMetadatas>
+						<CurrencyMetadata MetadataKey="EUR">
+							<Decimals>0</Decimals>
+						</CurrencyMetadata>
+					</CurrencyMetadatas>
+				</OtherMetadata>
+			</Other>
+		</Metadata>
+	</Query>
+</OrderCreateRQ>

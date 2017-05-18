@@ -1,0 +1,608 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FlightPriceRS EchoToken="8fdb1c621a7a4454aa3360556e7784d5" TimeStamp="2017-04-28T13:03:38.685Z" Version="IATA2016.2" xmlns="http://www.iata.org/IATA/EDIST">
+  <Document>
+    <Name>KRONOS NDC GATEWAY</Name>
+  </Document>
+  <Success/>
+  <ShoppingResponseID>
+    <ResponseID>213-e60dbd85b46f4eaeba794783e681a27c</ResponseID>
+  </ShoppingResponseID>
+  <PricedFlightOffers>
+    <PricedFlightOffer>
+      <OfferID Owner="C9">1</OfferID>
+      <OfferPrice OfferItemID="1_1">
+        <RequestedDate>
+          <PriceDetail>
+            <TotalAmount>
+              <SimpleCurrencyPrice Code="USD">302.33</SimpleCurrencyPrice>
+            </TotalAmount>
+            <BaseAmount Code="USD">148.75</BaseAmount>
+            <Taxes>
+              <Total Code="USD">153.58</Total>
+            </Taxes>
+          </PriceDetail>
+          <Associations>
+            <AssociatedTraveler>
+              <TravelerReferences>SH1</TravelerReferences>
+            </AssociatedTraveler>
+            <AssociatedService>
+              <ServiceReferences>SV_1014_ALL SV_1009_ALL SV_1010_ALL SV_1023_ALL SV_1024_ALL SV_1012_ALL SV_1011_ALL SV_1013_ALL</ServiceReferences>
+            </AssociatedService>
+          </Associations>
+        </RequestedDate>
+      </OfferPrice>
+      <TimeLimits>
+        <OfferExpiration Timestamp="2017-04-28T14:01:58.699Z"/>
+      </TimeLimits>
+      <Associations>
+        <ApplicableFlight>
+          <FlightSegmentReference ref="SEG_LHRBCN_1">
+            <Cabin>
+              <CabinDesignator>C</CabinDesignator>
+            </Cabin>
+          </FlightSegmentReference>
+          <OriginDestinationReferences>LHRBCN</OriginDestinationReferences>
+          <FlightReferences>FL_LHRBCN_1</FlightReferences>
+        </ApplicableFlight>
+        <PriceClass>
+          <PriceClassReference>PC2</PriceClassReference>
+        </PriceClass>
+      </Associations>
+    </PricedFlightOffer>
+    <PricedFlightOffer>
+      <OfferID Owner="C9">2</OfferID>
+      <OfferPrice OfferItemID="2_1">
+        <RequestedDate>
+          <PriceDetail>
+            <TotalAmount>
+              <SimpleCurrencyPrice Code="USD">427.33</SimpleCurrencyPrice>
+            </TotalAmount>
+            <BaseAmount Code="USD">273.75</BaseAmount>
+            <Taxes>
+              <Total Code="USD">153.58</Total>
+            </Taxes>
+          </PriceDetail>
+          <Associations>
+            <AssociatedTraveler>
+              <TravelerReferences>SH1</TravelerReferences>
+            </AssociatedTraveler>
+            <AssociatedService>
+              <ServiceReferences>SV_1014_ALL SV_1009_ALL SV_1010_ALL SV_1023_ALL SV_1024_ALL SV_1012_ALL SV_1011_ALL SV_1013_ALL</ServiceReferences>
+            </AssociatedService>
+          </Associations>
+        </RequestedDate>
+      </OfferPrice>
+      <TimeLimits>
+        <OfferExpiration Timestamp="2017-04-28T14:01:58.699Z"/>
+      </TimeLimits>
+      <Associations>
+        <ApplicableFlight>
+          <FlightSegmentReference ref="SEG_LHRBCN_1">
+            <Cabin>
+              <CabinDesignator>C</CabinDesignator>
+            </Cabin>
+          </FlightSegmentReference>
+          <OriginDestinationReferences>LHRBCN</OriginDestinationReferences>
+          <FlightReferences>FL_LHRBCN_1</FlightReferences>
+        </ApplicableFlight>
+        <PriceClass>
+          <PriceClassReference>PC1</PriceClassReference>
+        </PriceClass>
+      </Associations>
+      <Penalty>
+        <Details>
+          <Detail>
+            <Type>Changes/Cancellation/NoShow</Type>
+            <Amounts>
+              <Amount>
+                <CurrencyAmountValue>125.0</CurrencyAmountValue>
+                <ApplicableFeeRemarks>
+                  <Remark>The penalty for changes or cancellations after the order is placed is 125.0 Euros. Non refundable for no-show.</Remark>
+                </ApplicableFeeRemarks>
+              </Amount>
+            </Amounts>
+          </Detail>
+        </Details>
+      </Penalty>
+    </PricedFlightOffer>
+    <PricedFlightOffer>
+      <OfferID Owner="C9">3</OfferID>
+      <OfferPrice OfferItemID="3_1">
+        <RequestedDate>
+          <PriceDetail>
+            <TotalAmount>
+              <SimpleCurrencyPrice Code="USD">364.83</SimpleCurrencyPrice>
+            </TotalAmount>
+            <BaseAmount Code="USD">211.25</BaseAmount>
+            <Taxes>
+              <Total Code="USD">153.58</Total>
+            </Taxes>
+          </PriceDetail>
+          <Associations>
+            <AssociatedTraveler>
+              <TravelerReferences>SH1</TravelerReferences>
+            </AssociatedTraveler>
+            <AssociatedService>
+              <ServiceReferences>SV_1014_ALL SV_1009_ALL SV_1010_ALL SV_1023_ALL SV_1024_ALL SV_1012_ALL SV_1011_ALL SV_1013_ALL</ServiceReferences>
+            </AssociatedService>
+          </Associations>
+        </RequestedDate>
+      </OfferPrice>
+      <TimeLimits>
+        <OfferExpiration Timestamp="2017-04-28T14:01:58.699Z"/>
+      </TimeLimits>
+      <Associations>
+        <ApplicableFlight>
+          <FlightSegmentReference ref="SEG_LHRBCN_1">
+            <Cabin>
+              <CabinDesignator>C</CabinDesignator>
+            </Cabin>
+          </FlightSegmentReference>
+          <OriginDestinationReferences>LHRBCN</OriginDestinationReferences>
+          <FlightReferences>FL_LHRBCN_1</FlightReferences>
+        </ApplicableFlight>
+        <PriceClass>
+          <PriceClassReference>PC3</PriceClassReference>
+        </PriceClass>
+      </Associations>
+      <Penalty>
+        <Details>
+          <Detail>
+            <Type>Changes/Cancellation/NoShow</Type>
+            <Amounts>
+              <Amount>
+                <CurrencyAmountValue>62.5</CurrencyAmountValue>
+                <ApplicableFeeRemarks>
+                  <Remark>The penalty for changes or cancellations after the order is placed is 62.5 Euros. Non refundable for no-show.</Remark>
+                </ApplicableFeeRemarks>
+              </Amount>
+            </Amounts>
+          </Detail>
+        </Details>
+      </Penalty>
+    </PricedFlightOffer>
+    <PricedFlightOffer>
+      <OfferID Owner="C9">4</OfferID>
+      <OfferPrice OfferItemID="4_1">
+        <RequestedDate>
+          <PriceDetail>
+            <TotalAmount>
+              <SimpleCurrencyPrice Code="USD">302.33</SimpleCurrencyPrice>
+            </TotalAmount>
+            <BaseAmount Code="USD">148.75</BaseAmount>
+            <Taxes>
+              <Total Code="USD">153.58</Total>
+            </Taxes>
+          </PriceDetail>
+          <Associations>
+            <AssociatedTraveler>
+              <TravelerReferences>SH1</TravelerReferences>
+            </AssociatedTraveler>
+            <AssociatedService>
+              <ServiceReferences>SV_1014_ALL SV_1009_ALL SV_1010_ALL SV_1023_ALL SV_1024_ALL SV_1012_ALL SV_1011_ALL SV_1013_ALL</ServiceReferences>
+            </AssociatedService>
+          </Associations>
+        </RequestedDate>
+      </OfferPrice>
+      <TimeLimits>
+        <OfferExpiration Timestamp="2017-04-28T14:01:58.699Z"/>
+      </TimeLimits>
+      <Associations>
+        <ApplicableFlight>
+          <FlightSegmentReference ref="SEG_BCNLHR_2">
+            <Cabin>
+              <CabinDesignator>C</CabinDesignator>
+            </Cabin>
+          </FlightSegmentReference>
+          <OriginDestinationReferences>BCNLHR</OriginDestinationReferences>
+          <FlightReferences>FL_BCNLHR_2</FlightReferences>
+        </ApplicableFlight>
+        <PriceClass>
+          <PriceClassReference>PC2</PriceClassReference>
+        </PriceClass>
+      </Associations>
+    </PricedFlightOffer>
+    <PricedFlightOffer>
+      <OfferID Owner="C9">5</OfferID>
+      <OfferPrice OfferItemID="5_1">
+        <RequestedDate>
+          <PriceDetail>
+            <TotalAmount>
+              <SimpleCurrencyPrice Code="USD">427.33</SimpleCurrencyPrice>
+            </TotalAmount>
+            <BaseAmount Code="USD">273.75</BaseAmount>
+            <Taxes>
+              <Total Code="USD">153.58</Total>
+            </Taxes>
+          </PriceDetail>
+          <Associations>
+            <AssociatedTraveler>
+              <TravelerReferences>SH1</TravelerReferences>
+            </AssociatedTraveler>
+            <AssociatedService>
+              <ServiceReferences>SV_1014_ALL SV_1009_ALL SV_1010_ALL SV_1023_ALL SV_1024_ALL SV_1012_ALL SV_1011_ALL SV_1013_ALL</ServiceReferences>
+            </AssociatedService>
+          </Associations>
+        </RequestedDate>
+      </OfferPrice>
+      <TimeLimits>
+        <OfferExpiration Timestamp="2017-04-28T14:01:58.699Z"/>
+      </TimeLimits>
+      <Associations>
+        <ApplicableFlight>
+          <FlightSegmentReference ref="SEG_BCNLHR_2">
+            <Cabin>
+              <CabinDesignator>C</CabinDesignator>
+            </Cabin>
+          </FlightSegmentReference>
+          <OriginDestinationReferences>BCNLHR</OriginDestinationReferences>
+          <FlightReferences>FL_BCNLHR_2</FlightReferences>
+        </ApplicableFlight>
+        <PriceClass>
+          <PriceClassReference>PC1</PriceClassReference>
+        </PriceClass>
+      </Associations>
+      <Penalty>
+        <Details>
+          <Detail>
+            <Type>Changes/Cancellation/NoShow</Type>
+            <Amounts>
+              <Amount>
+                <CurrencyAmountValue>125.0</CurrencyAmountValue>
+                <ApplicableFeeRemarks>
+                  <Remark>The penalty for changes or cancellations after the order is placed is 125.0 Euros. Non refundable for no-show.</Remark>
+                </ApplicableFeeRemarks>
+              </Amount>
+            </Amounts>
+          </Detail>
+        </Details>
+      </Penalty>
+    </PricedFlightOffer>
+    <PricedFlightOffer>
+      <OfferID Owner="C9">6</OfferID>
+      <OfferPrice OfferItemID="6_1">
+        <RequestedDate>
+          <PriceDetail>
+            <TotalAmount>
+              <SimpleCurrencyPrice Code="USD">364.83</SimpleCurrencyPrice>
+            </TotalAmount>
+            <BaseAmount Code="USD">211.25</BaseAmount>
+            <Taxes>
+              <Total Code="USD">153.58</Total>
+            </Taxes>
+          </PriceDetail>
+          <Associations>
+            <AssociatedTraveler>
+              <TravelerReferences>SH1</TravelerReferences>
+            </AssociatedTraveler>
+            <AssociatedService>
+              <ServiceReferences>SV_1014_ALL SV_1009_ALL SV_1010_ALL SV_1023_ALL SV_1024_ALL SV_1012_ALL SV_1011_ALL SV_1013_ALL</ServiceReferences>
+            </AssociatedService>
+          </Associations>
+        </RequestedDate>
+      </OfferPrice>
+      <TimeLimits>
+        <OfferExpiration Timestamp="2017-04-28T14:01:58.699Z"/>
+      </TimeLimits>
+      <Associations>
+        <ApplicableFlight>
+          <FlightSegmentReference ref="SEG_BCNLHR_2">
+            <Cabin>
+              <CabinDesignator>C</CabinDesignator>
+            </Cabin>
+          </FlightSegmentReference>
+          <OriginDestinationReferences>BCNLHR</OriginDestinationReferences>
+          <FlightReferences>FL_BCNLHR_2</FlightReferences>
+        </ApplicableFlight>
+        <PriceClass>
+          <PriceClassReference>PC3</PriceClassReference>
+        </PriceClass>
+      </Associations>
+      <Penalty>
+        <Details>
+          <Detail>
+            <Type>Changes/Cancellation/NoShow</Type>
+            <Amounts>
+              <Amount>
+                <CurrencyAmountValue>62.5</CurrencyAmountValue>
+                <ApplicableFeeRemarks>
+                  <Remark>The penalty for changes or cancellations after the order is placed is 62.5 Euros. Non refundable for no-show.</Remark>
+                </ApplicableFeeRemarks>
+              </Amount>
+            </Amounts>
+          </Detail>
+        </Details>
+      </Penalty>
+    </PricedFlightOffer>
+  </PricedFlightOffers>
+  <DataLists>
+    <AnonymousTravelerList>
+      <AnonymousTraveler ObjectKey="SH1">
+        <PTC>ADT</PTC>
+      </AnonymousTraveler>
+    </AnonymousTravelerList>
+    <FlightSegmentList>
+      <FlightSegment SegmentKey="SEG_LHRBCN_1">
+        <Departure>
+          <AirportCode>LHR</AirportCode>
+          <Date>2017-08-22</Date>
+          <Time>08:00</Time>
+          <AirportName>Heathrow Airport</AirportName>
+        </Departure>
+        <Arrival>
+          <AirportCode>BCN</AirportCode>
+          <Date>2017-08-22</Date>
+          <Time>10:59</Time>
+          <AirportName>Barcelona–El Prat Airport</AirportName>
+        </Arrival>
+        <MarketingCarrier>
+          <AirlineID>C9</AirlineID>
+          <FlightNumber>070</FlightNumber>
+        </MarketingCarrier>
+        <OperatingCarrier>
+          <AirlineID>C9</AirlineID>
+          <FlightNumber>070</FlightNumber>
+        </OperatingCarrier>
+        <Equipment>
+          <AircraftCode>737</AircraftCode>
+          <Name>B737</Name>
+        </Equipment>
+        <FlightDetail>
+          <FlightDuration>
+            <Value>P0DT1H59M0S</Value>
+          </FlightDuration>
+        </FlightDetail>
+      </FlightSegment>
+      <FlightSegment SegmentKey="SEG_BCNLHR_2">
+        <Departure>
+          <AirportCode>BCN</AirportCode>
+          <Date>2017-08-26</Date>
+          <Time>12:00</Time>
+          <AirportName>Barcelona–El Prat Airport</AirportName>
+        </Departure>
+        <Arrival>
+          <AirportCode>LHR</AirportCode>
+          <Date>2017-08-26</Date>
+          <Time>12:59</Time>
+          <AirportName>Heathrow Airport</AirportName>
+        </Arrival>
+        <MarketingCarrier>
+          <AirlineID>C9</AirlineID>
+          <FlightNumber>071</FlightNumber>
+        </MarketingCarrier>
+        <OperatingCarrier>
+          <AirlineID>C9</AirlineID>
+          <FlightNumber>071</FlightNumber>
+        </OperatingCarrier>
+        <Equipment>
+          <AircraftCode>737</AircraftCode>
+          <Name>B737</Name>
+        </Equipment>
+        <FlightDetail>
+          <FlightDuration>
+            <Value>P0DT1H59M0S</Value>
+          </FlightDuration>
+        </FlightDetail>
+      </FlightSegment>
+    </FlightSegmentList>
+    <FlightList>
+      <Flight FlightKey="FL_LHRBCN_1">
+        <Journey>
+          <Time>P0DT1H59M0S</Time>
+        </Journey>
+        <SegmentReferences>SEG_LHRBCN_1</SegmentReferences>
+      </Flight>
+      <Flight FlightKey="FL_BCNLHR_2">
+        <Journey>
+          <Time>P0DT1H59M0S</Time>
+        </Journey>
+        <SegmentReferences>SEG_BCNLHR_2</SegmentReferences>
+      </Flight>
+    </FlightList>
+    <OriginDestinationList>
+      <OriginDestination OriginDestinationKey="LHRBCN">
+        <DepartureCode>LHR</DepartureCode>
+        <ArrivalCode>BCN</ArrivalCode>
+        <FlightReferences>FL_LHRBCN_1</FlightReferences>
+      </OriginDestination>
+      <OriginDestination OriginDestinationKey="BCNLHR">
+        <DepartureCode>BCN</DepartureCode>
+        <ArrivalCode>LHR</ArrivalCode>
+        <FlightReferences>FL_BCNLHR_2</FlightReferences>
+      </OriginDestination>
+    </OriginDestinationList>
+    <PriceClassList>
+      <PriceClass ObjectKey="PC3">
+        <Name>C-BFR</Name>
+        <Code>C</Code>
+        <FareBasisCode>
+          <Code>BFR</Code>
+        </FareBasisCode>
+      </PriceClass>
+      <PriceClass ObjectKey="PC1">
+        <Name>C-BSR</Name>
+        <Code>C</Code>
+        <FareBasisCode>
+          <Code>BSR</Code>
+        </FareBasisCode>
+      </PriceClass>
+      <PriceClass ObjectKey="PC2">
+        <Name>C-BRR</Name>
+        <Code>C</Code>
+        <FareBasisCode>
+          <Code>BRR</Code>
+        </FareBasisCode>
+      </PriceClass>
+    </PriceClassList>
+    <ServiceList>
+      <Service ObjectKey="SV_1014_ALL">
+        <ServiceID Owner="C9">1014</ServiceID>
+        <Name>Advanced seat selection</Name>
+        <Descriptions>
+          <Description>
+            <Text>A convenient option that lets you reserve your preferred seat</Text>
+          </Description>
+        </Descriptions>
+        <Price>
+          <Total>0</Total>
+          <PassengerReferences>SH1</PassengerReferences>
+        </Price>
+        <Associations>
+          <Traveler>
+            <TravelerReferences>SH1</TravelerReferences>
+          </Traveler>
+          <Flight>
+            <SegmentReferences>SEG_BCNLHR_2 SEG_LHRBCN_1</SegmentReferences>
+          </Flight>
+        </Associations>
+      </Service>
+      <Service ObjectKey="SV_1009_ALL">
+        <ServiceID Owner="C9">1009</ServiceID>
+        <Name>Inflight Wi-Fi</Name>
+        <Descriptions>
+          <Description>
+            <Text>Stay connected using any Wi-Fi enabled device</Text>
+          </Description>
+        </Descriptions>
+        <Price>
+          <Total>0</Total>
+          <PassengerReferences>SH1</PassengerReferences>
+        </Price>
+        <Associations>
+          <Traveler>
+            <TravelerReferences>SH1</TravelerReferences>
+          </Traveler>
+          <Flight>
+            <SegmentReferences>SEG_BCNLHR_2 SEG_LHRBCN_1</SegmentReferences>
+          </Flight>
+        </Associations>
+      </Service>
+      <Service ObjectKey="SV_1010_ALL">
+        <ServiceID Owner="C9">1010</ServiceID>
+        <Name>2nd Bag</Name>
+        <Descriptions>
+          <Description>
+            <Text>Second bag</Text>
+          </Description>
+        </Descriptions>
+        <Price>
+          <Total>0</Total>
+          <PassengerReferences>SH1</PassengerReferences>
+        </Price>
+        <Associations>
+          <Traveler>
+            <TravelerReferences>SH1</TravelerReferences>
+          </Traveler>
+          <Flight>
+            <SegmentReferences>SEG_BCNLHR_2 SEG_LHRBCN_1</SegmentReferences>
+          </Flight>
+        </Associations>
+      </Service>
+      <Service ObjectKey="SV_1023_ALL">
+        <ServiceID Owner="C9">1023</ServiceID>
+        <Name>1st Bag</Name>
+        <Descriptions>
+          <Description>
+            <Text>Do not get caught out at the airport</Text>
+          </Description>
+        </Descriptions>
+        <Price>
+          <Total>0</Total>
+          <PassengerReferences>SH1</PassengerReferences>
+        </Price>
+        <Associations>
+          <Traveler>
+            <TravelerReferences>SH1</TravelerReferences>
+          </Traveler>
+          <Flight>
+            <SegmentReferences>SEG_BCNLHR_2 SEG_LHRBCN_1</SegmentReferences>
+          </Flight>
+        </Associations>
+      </Service>
+      <Service ObjectKey="SV_1024_ALL">
+        <ServiceID Owner="C9">1024</ServiceID>
+        <Name>3rd Bag</Name>
+        <Descriptions>
+          <Description>
+            <Text>Do not get caught out at the airport</Text>
+          </Description>
+        </Descriptions>
+        <Price>
+          <Total>65</Total>
+          <PassengerReferences>SH1</PassengerReferences>
+        </Price>
+        <Associations>
+          <Traveler>
+            <TravelerReferences>SH1</TravelerReferences>
+          </Traveler>
+          <Flight>
+            <SegmentReferences>SEG_BCNLHR_2 SEG_LHRBCN_1</SegmentReferences>
+          </Flight>
+        </Associations>
+      </Service>
+      <Service ObjectKey="SV_1012_ALL">
+        <ServiceID Owner="C9">1012</ServiceID>
+        <Name>Vegetarian Meal</Name>
+        <Descriptions>
+          <Description>
+            <Text>Vegetarian meal flavoured with spices from Indian sub-continent</Text>
+          </Description>
+        </Descriptions>
+        <Price>
+          <Total>0</Total>
+          <PassengerReferences>SH1</PassengerReferences>
+        </Price>
+        <Associations>
+          <Traveler>
+            <TravelerReferences>SH1</TravelerReferences>
+          </Traveler>
+          <Flight>
+            <SegmentReferences>SEG_BCNLHR_2 SEG_LHRBCN_1</SegmentReferences>
+          </Flight>
+        </Associations>
+      </Service>
+      <Service ObjectKey="SV_1011_ALL">
+        <ServiceID Owner="C9">1011</ServiceID>
+        <Name>Lounge Pass</Name>
+        <Descriptions>
+          <Description>
+            <Text>Escape the crowds and find a quiet space to work or relax</Text>
+          </Description>
+        </Descriptions>
+        <Price>
+          <Total>0</Total>
+          <PassengerReferences>SH1</PassengerReferences>
+        </Price>
+        <Associations>
+          <Traveler>
+            <TravelerReferences>SH1</TravelerReferences>
+          </Traveler>
+          <Flight>
+            <SegmentReferences>SEG_BCNLHR_2 SEG_LHRBCN_1</SegmentReferences>
+          </Flight>
+        </Associations>
+      </Service>
+      <Service ObjectKey="SV_1013_ALL">
+        <ServiceID Owner="C9">1013</ServiceID>
+        <Name>Muslim Meal</Name>
+        <Descriptions>
+          <Description>
+            <Text>*Halal* meal prepared according to Islamic pinciples</Text>
+          </Description>
+        </Descriptions>
+        <Price>
+          <Total>0</Total>
+          <PassengerReferences>SH1</PassengerReferences>
+        </Price>
+        <Associations>
+          <Traveler>
+            <TravelerReferences>SH1</TravelerReferences>
+          </Traveler>
+          <Flight>
+            <SegmentReferences>SEG_BCNLHR_2 SEG_LHRBCN_1</SegmentReferences>
+          </Flight>
+        </Associations>
+      </Service>
+    </ServiceList>
+  </DataLists>
+</FlightPriceRS>

@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OrderViewRS CorrelationID="04e8b870dfdf41d3b8c06539d6bd6dcd"
+             TransactionIdentifier="04e8b870dfdf41d3b8c06539d6bd6dcd"
+             Version="IATA2016.2" xmlns="http://www.iata.org/IATA/EDIST"
+             xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Document>
+    <Name>KRONOS NDC GATEWAY</Name>
+    <ReferenceVersion>1.0</ReferenceVersion>
+  </Document>
+  <Success/>
+  <Response>
+    <OrderViewProcessing/>
+    <Passengers>
+      <Passenger ObjectKey="SH1">
+        <PTC Quantity="1">ADT</PTC>
+        <Name>
+          <Surname>Sutar</Surname>
+          <Given>Pramod</Given>
+          <Middle>R</Middle>
+        </Name>
+        <ProfileID>191196061518881</ProfileID>
+        <Contacts>
+          <Contact>
+            <AddressContact>
+              <Street>Parsik Road</Street>
+              <PO_Box>0</PO_Box>
+              <CityName>BOM</CityName>
+              <PostalCode>400605</PostalCode>
+              <County>IN</County>
+            </AddressContact>
+          </Contact>
+          <Contact>
+            <PhoneContact>
+              <Number>9664597377</Number>
+            </PhoneContact>
+          </Contact>
+          <Contact>
+            <EmailContact>
+              <Address>Pramod@gmail.com</Address>
+            </EmailContact>
+          </Contact>
+        </Contacts>
+        <Gender>Male</Gender>
+      </Passenger>
+    </Passengers>
+    <Order>
+      <OrderID Owner="C9">A12345RA8</OrderID>
+      <BookingReferences>
+        <BookingReference>
+          <ID>370730</ID>
+          <AirlineID>C9</AirlineID>
+        </BookingReference>
+      </BookingReferences>
+      <TotalOrderPrice>
+        <DetailCurrencyPrice>
+          <Total Code="EUR">287.50</Total>
+          <Taxes>
+            <Total>321.90</Total>
+          </Taxes>
+        </DetailCurrencyPrice>
+      </TotalOrderPrice>
+      <OrderItems>
+        <OrderItem>
+          <OrderItemID Owner="C9">1_1</OrderItemID>
+          <FlightItem>
+            <Price>
+              <BaseAmount Code="EUR">287.50</BaseAmount>
+              <Taxes>
+                <Total Code="EUR">321.90</Total>
+              </Taxes>
+            </Price>
+            <OriginDestination refs="OD1">
+              <Flight refs="SEG_ARNFRA_1">
+                <Departure>
+                  <AirportCode>ARN</AirportCode>
+                  <Date>2017-08-05</Date>
+                  <Time>07:50</Time>
+                </Departure>
+                <Arrival>
+                  <AirportCode>FRA</AirportCode>
+                  <Date>2017-08-05</Date>
+                  <Time>09:54</Time>
+                </Arrival>
+                <MarketingCarrier>
+                  <AirlineID>C9</AirlineID>
+                  <FlightNumber>013</FlightNumber>
+                </MarketingCarrier>
+                <OperatingCarrier>
+                  <AirlineID>C9</AirlineID>
+                  <FlightNumber>013</FlightNumber>
+                </OperatingCarrier>
+                <Equipment>
+                  <AircraftCode>737</AircraftCode>
+                </Equipment>
+                <Details>
+                  <FlightDuration>
+                    <Value>P0DT2H4M0S</Value>
+                  </FlightDuration>
+                </Details>
+              </Flight>
+              <Flight refs="SEG_FRARIX_2">
+                <Departure>
+                  <AirportCode>FRA</AirportCode>
+                  <Date>2017-08-05</Date>
+                  <Time>17:40</Time>
+                </Departure>
+                <Arrival>
+                  <AirportCode>RIX</AirportCode>
+                  <Date>2017-08-05</Date>
+                  <Time>20:47</Time>
+                </Arrival>
+                <MarketingCarrier>
+                  <AirlineID>C9</AirlineID>
+                  <FlightNumber>207</FlightNumber>
+                </MarketingCarrier>
+                <OperatingCarrier>
+                  <AirlineID>C9</AirlineID>
+                  <FlightNumber>207</FlightNumber>
+                </OperatingCarrier>
+                <Equipment>
+                  <AircraftCode>319</AircraftCode>
+                </Equipment>
+                <Details>
+                  <FlightDuration>
+                    <Value>P0DT2H7M0S</Value>
+                  </FlightDuration>
+                </Details>
+              </Flight>
+            </OriginDestination>
+          </FlightItem>
+          <Associations>
+            <Passengers>
+              <PassengerReferences>SH1</PassengerReferences>
+            </Passengers>
+            <AssociatedService>
+              <ServiceReferences>SV1009 SV1011</ServiceReferences>
+            </AssociatedService>
+          </Associations>
+        </OrderItem>
+      </OrderItems>
+    </Order>
+    <Payments>
+      <Payment>
+        <Type>
+          <Code>CC</Code>
+          <Definition>Credit Card</Definition>
+        </Type>
+        <Method>
+          <PaymentCardMethod>
+            <MaskedCardNumber>XXXXXXXXXXXX4444</MaskedCardNumber>
+            <EffectiveExpireDate>
+              <Effective>0322</Effective>
+            </EffectiveExpireDate>
+          </PaymentCardMethod>
+        </Method>
+        <Amount Code="EUR" Taxable="true">601.00</Amount>
+      </Payment>
+    </Payments>
+    <TicketDocInfos>
+      <TicketDocInfo>
+        <TicketDocument>
+          <TicketDocNbr>6957877543</TicketDocNbr>
+          <Type>
+            <Code>702</Code>
+            <Definition>eTicket</Definition>
+          </Type>
+          <NumberofBooklets>1</NumberofBooklets>
+          <DateOfIssue>2017-04-28</DateOfIssue>
+        </TicketDocument>
+        <PassengerReference>SH1</PassengerReference>
+      </TicketDocInfo>
+    </TicketDocInfos>
+    <DataLists>
+      <FlightSegmentList>
+        <FlightSegment SegmentKey="SEG_ARNFRA_1">
+          <Departure>
+            <AirportCode>ARN</AirportCode>
+            <Date>2017-08-05</Date>
+            <Time>07:50</Time>
+            <AirportName>Stockholm Arlanda Airport</AirportName>
+          </Departure>
+          <Arrival>
+            <AirportCode>FRA</AirportCode>
+            <Date>2017-08-05</Date>
+            <Time>09:54</Time>
+            <AirportName>Frankfurt Airport</AirportName>
+          </Arrival>
+          <MarketingCarrier>
+            <AirlineID>C9</AirlineID>
+            <FlightNumber>013</FlightNumber>
+          </MarketingCarrier>
+          <OperatingCarrier>
+            <AirlineID>C9</AirlineID>
+            <FlightNumber>013</FlightNumber>
+          </OperatingCarrier>
+          <Equipment>
+            <AircraftCode>737</AircraftCode>
+            <Name>B737</Name>
+          </Equipment>
+          <FlightDetail>
+            <FlightDuration>
+              <Value>P0DT2H4M0S</Value>
+            </FlightDuration>
+          </FlightDetail>
+        </FlightSegment>
+        <FlightSegment SegmentKey="SEG_FRARIX_2">
+          <Departure>
+            <AirportCode>FRA</AirportCode>
+            <Date>2017-08-05</Date>
+            <Time>17:40</Time>
+            <AirportName>Frankfurt Airport</AirportName>
+          </Departure>
+          <Arrival>
+            <AirportCode>RIX</AirportCode>
+            <Date>2017-08-05</Date>
+            <Time>20:47</Time>
+            <AirportName>Riga International Airport</AirportName>
+          </Arrival>
+          <MarketingCarrier>
+            <AirlineID>C9</AirlineID>
+            <FlightNumber>207</FlightNumber>
+          </MarketingCarrier>
+          <OperatingCarrier>
+            <AirlineID>C9</AirlineID>
+            <FlightNumber>207</FlightNumber>
+          </OperatingCarrier>
+          <Equipment>
+            <AircraftCode>319</AircraftCode>
+            <Name>A319</Name>
+          </Equipment>
+          <FlightDetail>
+            <FlightDuration>
+              <Value>P0DT2H7M0S</Value>
+            </FlightDuration>
+          </FlightDetail>
+        </FlightSegment>
+      </FlightSegmentList>
+      <FlightList>
+        <Flight FlightKey="FL_ARNRIX_1">
+          <Journey>
+            <Time>P0DT11H57M0S</Time>
+          </Journey>
+          <SegmentReferences>SEG_ARNFRA_1 SEG_FRARIX_2</SegmentReferences>
+        </Flight>
+      </FlightList>
+      <OriginDestinationList>
+        <OriginDestination OriginDestinationKey="OD1">
+          <DepartureCode>ARN</DepartureCode>
+          <ArrivalCode>RIX</ArrivalCode>
+          <FlightReferences>FL_ARNRIX_1</FlightReferences>
+        </OriginDestination>
+      </OriginDestinationList>
+      <ServiceList>
+        <Service ObjectKey="SV1011">
+          <ServiceID Owner="C9">1011</ServiceID>
+          <Name>Lounge Pass</Name>
+          <Descriptions>
+            <Description>
+              <Text>Escape the crowds and find a quiet space to work or relax</Text>
+            </Description>
+          </Descriptions>
+          <Price>
+            <Total>35</Total>
+            <PassengerReferences>SH1</PassengerReferences>
+          </Price>
+          <Associations>
+            <Traveler>
+              <TravelerReferences>SH1</TravelerReferences>
+            </Traveler>
+            <Flight>
+              <SegmentReferences>SEG_ARNFRA_1 SEG_FRARIX_2</SegmentReferences>
+            </Flight>
+          </Associations>
+        </Service>
+        <Service ObjectKey="SV1009">
+          <ServiceID Owner="C9">1009</ServiceID>
+          <Name>Inflight Wi-Fi</Name>
+          <Descriptions>
+            <Description>
+              <Text>Stay connected using any Wi-Fi enabled device</Text>
+            </Description>
+          </Descriptions>
+          <Price>
+            <Total>19</Total>
+            <PassengerReferences>SH1</PassengerReferences>
+          </Price>
+          <Associations>
+            <Traveler>
+              <TravelerReferences>SH1</TravelerReferences>
+            </Traveler>
+            <Flight>
+              <SegmentReferences>SEG_ARNFRA_1 SEG_FRARIX_2</SegmentReferences>
+            </Flight>
+          </Associations>
+        </Service>
+      </ServiceList>
+    </DataLists>
+  </Response>
+</OrderViewRS>

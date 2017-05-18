@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SeatAvailabilityRQ xmlns="http://www.iata.org/IATA/EDIST" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.iata.org/IATA/EDIST ../SeatAvailabilityRQ.xsd" EchoToken="8fdb1c621a7a4454aa3360556e7784d5" TimeStamp="2015-12-10T12:39:00Z" Version="IATA2016.2">
+  <Document>
+    <Name>KRONOS NDC GATEWAY</Name>
+    <ReferenceVersion>1.0</ReferenceVersion>
+  </Document>
+  <Party>
+    <Sender>
+      <TravelAgencySender>
+        <Name>AGENCY</Name>
+        <IATA_Number>20200154</IATA_Number>
+        <AgencyID>00010080</AgencyID>
+      </TravelAgencySender>
+    </Sender>
+    <Recipient>
+      <ORA_Recipient>
+        <AirlineID>C9</AirlineID>
+      </ORA_Recipient>
+    </Recipient>
+  </Party>
+  <Travelers>
+    <Traveler>
+      <AnonymousTraveler>
+        <PTC>ADT</PTC>
+      </AnonymousTraveler>
+    </Traveler>
+  </Travelers>
+  <Query>
+    <OriginDestination>
+      <OriginDestinationReferences>ARNFRA</OriginDestinationReferences>
+    </OriginDestination>
+  </Query>
+  <DataLists>
+    <FlightSegmentList>
+      <FlightSegment SegmentKey="SEG1">
+        <Departure>
+          <AirportCode>ARN</AirportCode>
+          <Date>2017-08-05</Date>
+          <Time>07:50</Time>
+          <AirportName>Stockholm Arlanda Airport</AirportName>
+        </Departure>
+        <Arrival>
+          <AirportCode>FRA</AirportCode>
+          <Date>2017-08-05</Date>
+          <Time>09:54</Time>
+          <AirportName>Frankfurt Airport</AirportName>
+        </Arrival>
+        <MarketingCarrier>
+          <AirlineID>C9</AirlineID>
+          <FlightNumber>013</FlightNumber>
+        </MarketingCarrier>
+        <OperatingCarrier>
+          <AirlineID>C9</AirlineID>
+          <FlightNumber>013</FlightNumber>
+        </OperatingCarrier>
+        <ClassOfService>
+          <Code>M</Code>
+        </ClassOfService>
+      </FlightSegment>
+    </FlightSegmentList>
+    <FlightList>
+      <Flight FlightKey="FL1">
+        <SegmentReferences>SEG1</SegmentReferences>
+      </Flight>
+    </FlightList>
+    <OriginDestinationList>
+      <OriginDestination OriginDestinationKey="ARNFRA">
+        <DepartureCode>ARN</DepartureCode>
+        <ArrivalCode>FRA</ArrivalCode>
+        <FlightReferences>FL1</FlightReferences>
+      </OriginDestination>
+    </OriginDestinationList>
+  </DataLists>
+</SeatAvailabilityRQ>

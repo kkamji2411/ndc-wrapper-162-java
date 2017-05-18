@@ -1,0 +1,15 @@
+/home/thibaud/Supaéro/Césure/IATA/Dev stuff/ndc-dev-master-ca6cc6dea7e4070d092871417d4330a8910a202f/ndc-client/src/main/java/org/iata/ndc/builder/FlightPriceRQBuilder.java
+/home/thibaud/Supaéro/Césure/IATA/Dev stuff/ndc-dev-master-ca6cc6dea7e4070d092871417d4330a8910a202f/ndc-client/src/main/java/org/iata/ndc/builder/Initializer.java
+/home/thibaud/Supaéro/Césure/IATA/Dev stuff/ndc-dev-master-ca6cc6dea7e4070d092871417d4330a8910a202f/ndc-client/src/main/java/org/iata/ndc/ClientException.java
+/home/thibaud/Supaéro/Césure/IATA/Dev stuff/ndc-dev-master-ca6cc6dea7e4070d092871417d4330a8910a202f/ndc-client/src/main/java/org/iata/ndc/builder/SeatAvailabilityRQBuilder.java
+/home/thibaud/Supaéro/Césure/IATA/Dev stuff/ndc-dev-master-ca6cc6dea7e4070d092871417d4330a8910a202f/ndc-client/src/main/java/org/iata/ndc/builder/AirShoppingRQBuilder.java
+/home/thibaud/Supaéro/Césure/IATA/Dev stuff/ndc-dev-master-ca6cc6dea7e4070d092871417d4330a8910a202f/ndc-client/src/main/java/org/iata/ndc/builder/element/PartyBuilder.java
+/home/thibaud/Supaéro/Césure/IATA/Dev stuff/ndc-dev-master-ca6cc6dea7e4070d092871417d4330a8910a202f/ndc-client/src/main/java/org/iata/ndc/NdcClient.java
+/home/thibaud/Supaéro/Césure/IATA/Dev stuff/ndc-dev-master-ca6cc6dea7e4070d092871417d4330a8910a202f/ndc-client/src/main/java/org/iata/ndc/builder/Buildable.java
+/home/thibaud/Supaéro/Césure/IATA/Dev stuff/ndc-dev-master-ca6cc6dea7e4070d092871417d4330a8910a202f/ndc-client/src/main/java/org/iata/ndc/UnmarshallingResponseHandler.java
+/home/thibaud/Supaéro/Césure/IATA/Dev stuff/ndc-dev-master-ca6cc6dea7e4070d092871417d4330a8910a202f/ndc-client/src/main/java/org/iata/ndc/builder/TravelersTravelerBuilder.java
+/home/thibaud/Supaéro/Césure/IATA/Dev stuff/ndc-dev-master-ca6cc6dea7e4070d092871417d4330a8910a202f/ndc-client/src/main/java/org/iata/ndc/builder/AbstractTravelAgencyBuilder.java
+/home/thibaud/Supaéro/Césure/IATA/Dev stuff/ndc-dev-master-ca6cc6dea7e4070d092871417d4330a8910a202f/ndc-client/src/main/java/org/iata/ndc/builder/MessageDocumentFactory.java
+/home/thibaud/Supaéro/Césure/IATA/Dev stuff/ndc-dev-master-ca6cc6dea7e4070d092871417d4330a8910a202f/ndc-client/src/main/java/org/iata/ndc/builder/ServiceListRQBuilder.java
+/home/thibaud/Supaéro/Césure/IATA/Dev stuff/ndc-dev-master-ca6cc6dea7e4070d092871417d4330a8910a202f/ndc-client/src/main/java/org/iata/ndc/builder/Traveler.java
+/home/thibaud/Supaéro/Césure/IATA/Dev stuff/ndc-dev-master-ca6cc6dea7e4070d092871417d4330a8910a202f/ndc-client/src/main/java/org/iata/ndc/builder/element/DataListBuilder.java
